@@ -1,0 +1,47 @@
+INFO 2023-08-30 21:50:16,701 autoreload 15044 4220 Watching for file changes with StatReloader
+INFO 2023-08-30 21:50:18,773 basehttp 15044 3180 "GET / HTTP/1.1" 200 12
+INFO 2023-08-30 21:50:24,416 basehttp 15044 3180 "GET /about/ HTTP/1.1" 200 8
+INFO 2023-08-30 21:54:44,034 autoreload 15044 4220 A:\PythonPyCharm\PyCharmProjects\gb_django\hw_project\hw_app\views.py changed, reloading.
+INFO 2023-08-30 21:54:44,303 autoreload 8524 13704 Watching for file changes with StatReloader
+INFO 2023-08-30 21:59:45,228 autoreload 8524 13704 A:\PythonPyCharm\PyCharmProjects\gb_django\hw_project\hw_app\views.py changed, reloading.
+INFO 2023-08-30 21:59:45,499 autoreload 8008 1832 Watching for file changes with StatReloader
+INFO 2023-08-30 21:59:49,563 views 8008 11520 Index page accessed successfully!
+INFO 2023-08-30 21:59:49,563 basehttp 8008 11520 "GET / HTTP/1.1" 200 21
+INFO 2023-08-30 22:00:13,263 autoreload 8008 1832 A:\PythonPyCharm\PyCharmProjects\gb_django\hw_project\hw_app\views.py changed, reloading.
+INFO 2023-08-30 22:00:13,538 autoreload 13704 9304 Watching for file changes with StatReloader
+INFO 2023-08-30 22:03:41,906 views 13704 4412 Index page accessed successfully!
+INFO 2023-08-30 22:03:41,907 basehttp 13704 4412 "GET / HTTP/1.1" 200 22
+INFO 2023-08-30 22:03:42,275 autoreload 13704 9304 A:\PythonPyCharm\PyCharmProjects\gb_django\hw_project\hw_app\views.py changed, reloading.
+INFO 2023-08-30 22:03:42,491 autoreload 14428 12428 Watching for file changes with StatReloader
+INFO 2023-08-30 22:03:44,158 views 14428 16828 Index page accessed successfully!
+INFO 2023-08-30 22:03:44,158 basehttp 14428 16828 "GET / HTTP/1.1" 200 251
+INFO 2023-08-30 22:03:49,458 views 14428 16828 <h1>Пару слов обо мне:</h1>
+INFO 2023-08-30 22:03:49,458 basehttp 14428 16828 "GET /about/ HTTP/1.1" 200 136
+INFO 2023-08-30 22:04:14,502 views 14428 16828 <h1>Пару слов обо мне:</h1>
+INFO 2023-08-30 22:04:14,503 basehttp 14428 16828 "GET /about/ HTTP/1.1" 200 136
+INFO 2023-08-30 22:04:15,087 autoreload 14428 12428 A:\PythonPyCharm\PyCharmProjects\gb_django\hw_project\hw_app\views.py changed, reloading.
+INFO 2023-08-30 22:04:15,302 autoreload 5908 19304 Watching for file changes with StatReloader
+INFO 2023-08-30 22:04:15,712 views 5908 7156 
+INFO 2023-08-30 22:04:15,712 basehttp 5908 7156 "GET /about/ HTTP/1.1" 200 177
+INFO 2023-08-30 22:04:32,622 views 5908 7156 
+INFO 2023-08-30 22:04:32,622 basehttp 5908 7156 "GET /about/ HTTP/1.1" 200 177
+INFO 2023-08-30 22:04:32,667 autoreload 5908 19304 A:\PythonPyCharm\PyCharmProjects\gb_django\hw_project\hw_app\views.py changed, reloading.
+INFO 2023-08-30 22:04:32,892 autoreload 19364 9960 Watching for file changes with StatReloader
+INFO 2023-08-30 22:04:34,619 views 19364 12020 About page accessed successfully!
+INFO 2023-08-30 22:04:34,619 basehttp 19364 12020 "GET /about/ HTTP/1.1" 200 177
+INFO 2023-08-30 22:04:37,393 views 19364 12020 Index page accessed successfully!
+INFO 2023-08-30 22:04:37,393 basehttp 19364 12020 "GET / HTTP/1.1" 200 251
+INFO 2023-08-30 22:09:55,910 autoreload 19364 9960 A:\PythonPyCharm\PyCharmProjects\gb_django\hw_project\hw_project\settings.py changed, reloading.
+INFO 2023-08-30 22:09:56,199 autoreload 17808 2160 Watching for file changes with StatReloader
+INFO 2023-08-30 22:16:59,754 autoreload 17808 2160 A:\PythonPyCharm\PyCharmProjects\gb_django\hw_project\hw_project\settings.py changed, reloading.
+INFO 2023-08-30 22:16:59,986 autoreload 7896 10236 Watching for file changes with StatReloader
+INFO 2023-08-30 22:17:05,846 views 7896 8008 About page accessed successfully!
+INFO 2023-08-30 22:17:05,847 basehttp 7896 8008 "GET /about/ HTTP/1.1" 200 177
+INFO 2023-08-30 22:17:11,782 views 7896 8008 Index page accessed successfully!
+INFO 2023-08-30 22:17:11,782 basehttp 7896 8008 "GET / HTTP/1.1" 200 251
+INFO 2023-08-30 22:17:48,777 autoreload 7896 10236 A:\PythonPyCharm\PyCharmProjects\gb_django\hw_project\hw_app\views.py changed, reloading.
+INFO 2023-08-30 22:17:48,998 autoreload 7324 19128 Watching for file changes with StatReloader
+INFO 2023-08-30 22:17:54,170 views 7324 19016 РЈСЃРїРµС€РЅРѕ!
+INFO 2023-08-30 22:17:54,170 basehttp 7324 19016 "GET /about/ HTTP/1.1" 200 177
+INFO 2023-08-30 22:19:41,487 autoreload 7324 19128 A:\PythonPyCharm\PyCharmProjects\gb_django\hw_project\hw_app\views.py changed, reloading.
+INFO 2023-08-30 22:19:41,725 autoreload 18012 12452 Watching for file changes with StatReloader
