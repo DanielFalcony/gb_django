@@ -1,0 +1,4 @@
+INFO 2023-09-03 23:48:02,508 autoreload 2896 19716 Watching for file changes with StatReloader
+INFO 2023-09-03 23:48:04,933 basehttp 2896 15436 "GET / HTTP/1.1" 200 10664
+WARNING 2023-09-03 23:48:05,077 log 2896 15436 Not Found: /favicon.ico
+WARNING 2023-09-03 23:48:05,078 basehttp 2896 15436 "GET /favicon.ico HTTP/1.1" 404 2113
