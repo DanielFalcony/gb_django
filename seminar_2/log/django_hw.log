@@ -1,0 +1,403 @@
+INFO 2023-09-03 23:48:02,508 autoreload 2896 19716 Watching for file changes with StatReloader
+INFO 2023-09-03 23:48:04,933 basehttp 2896 15436 "GET / HTTP/1.1" 200 10664
+WARNING 2023-09-03 23:48:05,077 log 2896 15436 Not Found: /favicon.ico
+WARNING 2023-09-03 23:48:05,078 basehttp 2896 15436 "GET /favicon.ico HTTP/1.1" 404 2113
+INFO 2023-09-04 17:13:40,819 autoreload 9836 17864 Watching for file changes with StatReloader
+INFO 2023-09-04 17:16:04,067 autoreload 9836 17864 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\urls.py changed, reloading.
+INFO 2023-09-04 17:16:04,492 autoreload 17084 2988 Watching for file changes with StatReloader
+ERROR 2023-09-04 17:16:08,359 log 17084 19220 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py", line 12, in index
+    game = GameModel(request=result)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: GameModel() got unexpected keyword arguments: 'request'
+ERROR 2023-09-04 17:16:08,361 basehttp 17084 19220 "GET / HTTP/1.1" 500 74505
+WARNING 2023-09-04 17:16:08,540 log 17084 19220 Not Found: /favicon.ico
+WARNING 2023-09-04 17:16:08,541 basehttp 17084 19220 "GET /favicon.ico HTTP/1.1" 404 2444
+INFO 2023-09-04 17:16:18,238 autoreload 19264 18348 Watching for file changes with StatReloader
+ERROR 2023-09-04 17:16:19,733 log 19264 5704 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py", line 12, in index
+    game = GameModel(request=result)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: GameModel() got unexpected keyword arguments: 'request'
+ERROR 2023-09-04 17:16:19,735 basehttp 19264 5704 "GET / HTTP/1.1" 500 74505
+INFO 2023-09-04 17:16:47,551 autoreload 19264 18348 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 17:16:47,946 autoreload 16576 12500 Watching for file changes with StatReloader
+INFO 2023-09-04 17:16:49,864 basehttp 16576 16744 "GET / HTTP/1.1" 200 97
+INFO 2023-09-04 17:16:52,062 basehttp 16576 16744 "GET / HTTP/1.1" 200 97
+INFO 2023-09-04 17:16:52,596 basehttp 16576 16744 "GET / HTTP/1.1" 200 97
+INFO 2023-09-04 17:16:53,108 basehttp 16576 16744 "GET / HTTP/1.1" 200 97
+INFO 2023-09-04 17:16:53,784 basehttp 16576 16744 "GET / HTTP/1.1" 200 97
+INFO 2023-09-04 17:16:54,406 basehttp 16576 16744 "GET / HTTP/1.1" 200 97
+INFO 2023-09-04 17:17:49,754 basehttp 16576 16744 "GET /last HTTP/1.1" 301 0
+ERROR 2023-09-04 17:17:49,784 log 16576 18352 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py", line 19, in last_game
+    last = GameModel().return_last(5)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\models.py", line 14, in return_last
+    return self.object.all()[:n]
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\db\models\manager.py", line 186, in __get__
+    raise AttributeError(
+AttributeError: Manager isn't accessible via GameModel instances
+ERROR 2023-09-04 17:17:49,786 basehttp 16576 18352 "GET /last/ HTTP/1.1" 500 73895
+INFO 2023-09-04 17:18:56,213 autoreload 16576 12500 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\models.py changed, reloading.
+INFO 2023-09-04 17:18:56,671 autoreload 14156 8364 Watching for file changes with StatReloader
+INFO 2023-09-04 17:19:15,535 autoreload 14156 8364 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\models.py changed, reloading.
+INFO 2023-09-04 17:19:15,992 autoreload 13952 16984 Watching for file changes with StatReloader
+INFO 2023-09-04 17:19:27,632 autoreload 13952 16984 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\models.py changed, reloading.
+INFO 2023-09-04 17:19:28,073 autoreload 14284 2720 Watching for file changes with StatReloader
+INFO 2023-09-04 17:19:33,183 basehttp 14284 1068 "GET /last/ HTTP/1.1" 200 482
+INFO 2023-09-04 17:20:50,868 autoreload 14284 2720 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 17:20:51,346 autoreload 12124 12136 Watching for file changes with StatReloader
+INFO 2023-09-04 17:20:56,233 basehttp 12124 400 "GET /last/ HTTP/1.1" 200 569
+INFO 2023-09-04 17:21:04,706 basehttp 12124 400 "GET /last/ HTTP/1.1" 200 569
+INFO 2023-09-04 17:21:05,166 autoreload 12124 12136 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 17:21:05,618 autoreload 1684 14588 Watching for file changes with StatReloader
+INFO 2023-09-04 17:21:07,280 basehttp 1684 18836 "GET /last/ HTTP/1.1" 200 568
+INFO 2023-09-04 17:21:10,014 basehttp 1684 18836 "GET /last/ HTTP/1.1" 200 568
+INFO 2023-09-04 17:21:25,262 basehttp 1684 18836 "GET /last/ HTTP/1.1" 200 568
+INFO 2023-09-04 17:21:25,681 autoreload 1684 14588 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 17:21:26,128 autoreload 19368 12388 Watching for file changes with StatReloader
+INFO 2023-09-04 17:21:26,328 basehttp 19368 19128 "GET /last/ HTTP/1.1" 200 482
+INFO 2023-09-04 17:21:40,875 autoreload 19368 12388 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 17:21:41,342 autoreload 19428 17572 Watching for file changes with StatReloader
+INFO 2023-09-04 17:21:54,882 autoreload 19428 17572 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 17:21:55,316 autoreload 17588 17532 Watching for file changes with StatReloader
+INFO 2023-09-04 17:22:02,893 autoreload 17588 17532 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 17:22:03,354 autoreload 12396 18180 Watching for file changes with StatReloader
+ERROR 2023-09-04 17:22:04,373 log 12396 8140 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py", line 21, in last_game
+    return HttpResponse('<br>'.join(last))
+TypeError: sequence item 0: expected str instance, GameModel found
+ERROR 2023-09-04 17:22:04,375 basehttp 12396 8140 "GET /last/ HTTP/1.1" 500 67666
+ERROR 2023-09-04 17:22:05,095 log 12396 8140 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py", line 21, in last_game
+    return HttpResponse('<br>'.join(last))
+TypeError: sequence item 0: expected str instance, GameModel found
+ERROR 2023-09-04 17:22:05,096 basehttp 12396 8140 "GET /last/ HTTP/1.1" 500 67666
+INFO 2023-09-04 17:22:35,613 autoreload 12396 18180 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 17:22:36,061 autoreload 15316 19328 Watching for file changes with StatReloader
+ERROR 2023-09-04 17:22:36,648 log 15316 13760 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py", line 21, in last_game
+    return HttpResponse('\n'.join(last))
+TypeError: sequence item 0: expected str instance, GameModel found
+ERROR 2023-09-04 17:22:36,651 basehttp 15316 13760 "GET /last/ HTTP/1.1" 500 67650
+ERROR 2023-09-04 17:22:37,686 log 15316 13760 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py", line 21, in last_game
+    return HttpResponse('\n'.join(last))
+TypeError: sequence item 0: expected str instance, GameModel found
+ERROR 2023-09-04 17:22:37,686 basehttp 15316 13760 "GET /last/ HTTP/1.1" 500 67650
+INFO 2023-09-04 17:22:53,937 autoreload 15316 19328 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 17:22:54,360 autoreload 1892 11820 Watching for file changes with StatReloader
+ERROR 2023-09-04 17:22:54,533 log 1892 9896 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py", line 21, in last_game
+    return HttpResponse('\n' + last)
+TypeError: can only concatenate str (not "QuerySet") to str
+ERROR 2023-09-04 17:22:54,535 basehttp 1892 9896 "GET /last/ HTTP/1.1" 500 67654
+ERROR 2023-09-04 17:23:09,561 log 1892 9896 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py", line 21, in last_game
+    return HttpResponse('\n'.join(last))
+TypeError: can only concatenate str (not "QuerySet") to str
+ERROR 2023-09-04 17:23:09,562 basehttp 1892 9896 "GET /last/ HTTP/1.1" 500 67662
+INFO 2023-09-04 17:23:10,155 autoreload 1892 11820 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 17:23:10,623 autoreload 16588 17940 Watching for file changes with StatReloader
+ERROR 2023-09-04 17:23:10,908 log 16588 10272 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py", line 21, in last_game
+    return HttpResponse('\n'.join(last))
+TypeError: sequence item 0: expected str instance, GameModel found
+ERROR 2023-09-04 17:23:10,910 basehttp 16588 10272 "GET /last/ HTTP/1.1" 500 67650
+ERROR 2023-09-04 17:23:47,484 log 16588 10272 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py", line 21, in last_game
+    return HttpResponse(n for n in last)
+TypeError: sequence item 0: expected str instance, GameModel found
+ERROR 2023-09-04 17:23:47,485 basehttp 16588 10272 "GET /last/ HTTP/1.1" 500 67630
+INFO 2023-09-04 17:23:48,011 autoreload 16588 17940 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 17:23:48,470 autoreload 19240 12880 Watching for file changes with StatReloader
+INFO 2023-09-04 17:23:48,590 basehttp 19240 9048 "GET /last/ HTTP/1.1" 200 482
+INFO 2023-09-04 17:23:51,658 basehttp 19240 9048 "GET /last/ HTTP/1.1" 200 482
+INFO 2023-09-04 17:23:52,896 basehttp 19240 9048 "GET /last/ HTTP/1.1" 200 482
+INFO 2023-09-04 17:23:53,639 basehttp 19240 9048 "GET /last/ HTTP/1.1" 200 482
+INFO 2023-09-04 17:24:21,574 basehttp 19240 9048 "GET /last/ HTTP/1.1" 200 482
+INFO 2023-09-04 17:24:21,762 autoreload 19240 12880 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 17:24:22,175 autoreload 3824 14580 Watching for file changes with StatReloader
+ERROR 2023-09-04 17:24:22,457 log 3824 9968 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py", line 21, in last_game
+    return HttpResponse(n+'\n' for n in last)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\http\response.py", line 376, in __init__
+    self.content = content
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\http\response.py", line 401, in content
+    content = b"".join(self.make_bytes(chunk) for chunk in value)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\http\response.py", line 401, in <genexpr>
+    content = b"".join(self.make_bytes(chunk) for chunk in value)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py", line 21, in <genexpr>
+    return HttpResponse(n+'\n' for n in last)
+TypeError: unsupported operand type(s) for +: 'GameModel' and 'str'
+ERROR 2023-09-04 17:24:22,460 basehttp 3824 9968 "GET /last/ HTTP/1.1" 500 82759
+INFO 2023-09-04 17:24:29,722 autoreload 3824 14580 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 17:24:30,248 autoreload 12652 19168 Watching for file changes with StatReloader
+INFO 2023-09-04 17:25:01,779 basehttp 12652 18332 "GET /last/ HTTP/1.1" 200 482
+INFO 2023-09-04 17:25:11,175 basehttp 12652 18332 "GET /last/ HTTP/1.1" 200 482
+INFO 2023-09-04 17:25:11,843 autoreload 12652 19168 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\models.py changed, reloading.
+INFO 2023-09-04 17:25:12,297 autoreload 4192 5192 Watching for file changes with StatReloader
+INFO 2023-09-04 17:25:12,539 basehttp 4192 12368 "GET /last/ HTTP/1.1" 200 492
+INFO 2023-09-04 17:25:14,616 basehttp 4192 12368 "GET /last/ HTTP/1.1" 200 492
+INFO 2023-09-04 17:25:41,092 basehttp 4192 12368 "GET /last/ HTTP/1.1" 200 492
+INFO 2023-09-04 17:25:41,416 autoreload 4192 5192 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\models.py changed, reloading.
+INFO 2023-09-04 17:25:41,898 autoreload 14880 3708 Watching for file changes with StatReloader
+INFO 2023-09-04 17:25:43,217 basehttp 14880 12660 "GET /last/ HTTP/1.1" 200 487
+INFO 2023-09-04 17:25:48,574 basehttp 14880 12660 "GET / HTTP/1.1" 200 98
+INFO 2023-09-04 17:25:56,107 basehttp 14880 12660 "GET /last/ HTTP/1.1" 200 487
+INFO 2023-09-04 17:26:08,135 autoreload 14880 3708 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\models.py changed, reloading.
+INFO 2023-09-04 17:26:08,596 autoreload 11012 18176 Watching for file changes with StatReloader
+INFO 2023-09-04 17:26:24,454 autoreload 11012 18176 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 17:26:24,903 autoreload 17628 17964 Watching for file changes with StatReloader
+INFO 2023-09-04 17:26:33,523 autoreload 17628 17964 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 17:26:34,018 autoreload 13152 17792 Watching for file changes with StatReloader
+INFO 2023-09-04 17:26:44,761 autoreload 13152 17792 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 17:26:45,236 autoreload 11880 14176 Watching for file changes with StatReloader
+ERROR 2023-09-04 17:26:45,548 log 11880 2376 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py", line 21, in last_game
+    return HttpResponse(*last, sep='\n')
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\http\response.py", line 374, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: HttpResponseBase.__init__() got an unexpected keyword argument 'sep'
+ERROR 2023-09-04 17:26:45,550 basehttp 11880 2376 "GET /last/ HTTP/1.1" 500 72705
+INFO 2023-09-04 17:27:56,609 autoreload 11880 14176 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 17:27:57,111 autoreload 19048 18520 Watching for file changes with StatReloader
+INFO 2023-09-04 17:28:20,967 autoreload 19048 18520 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 17:28:21,402 autoreload 19372 4400 Watching for file changes with StatReloader
+INFO 2023-09-04 17:28:49,474 autoreload 19372 4400 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 17:28:49,932 autoreload 9128 17948 Watching for file changes with StatReloader
+INFO 2023-09-04 17:29:22,945 autoreload 9128 17948 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 17:29:23,379 autoreload 16616 4308 Watching for file changes with StatReloader
+INFO 2023-09-04 17:29:48,452 autoreload 16616 4308 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 17:29:48,964 autoreload 16408 16808 Watching for file changes with StatReloader
+INFO 2023-09-04 17:30:23,312 autoreload 16408 16808 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 17:30:23,872 autoreload 15208 10580 Watching for file changes with StatReloader
+INFO 2023-09-04 17:30:25,454 basehttp 15208 12856 "GET /last/ HTTP/1.1" 200 502
+INFO 2023-09-04 17:31:22,960 autoreload 15208 10580 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 17:31:23,497 autoreload 14720 17476 Watching for file changes with StatReloader
+ERROR 2023-09-04 17:31:23,852 log 14720 1120 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py", line 19, in last_game
+    last = GameModel().return_last(-5)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\models.py", line 16, in return_last
+    return GameModel.object.all()[:n]
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\db\models\query.py", line 429, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2023-09-04 17:31:23,856 basehttp 14720 1120 "GET /last/ HTTP/1.1" 500 75917
+INFO 2023-09-04 17:31:47,484 autoreload 14720 17476 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\models.py changed, reloading.
+INFO 2023-09-04 17:31:47,945 autoreload 1880 9196 Watching for file changes with StatReloader
+INFO 2023-09-04 17:31:49,665 basehttp 1880 1780 "GET / HTTP/1.1" 200 97
+ERROR 2023-09-04 17:31:55,543 log 1880 1780 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py", line 19, in last_game
+    last = GameModel().return_last(5)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\models.py", line 16, in return_last
+    return GameModel.object.all()[:-n]
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\db\models\query.py", line 429, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2023-09-04 17:31:55,544 basehttp 1880 1780 "GET /last/ HTTP/1.1" 500 75779
+ERROR 2023-09-04 17:32:12,993 log 1880 1780 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py", line 19, in last_game
+    last = GameModel().return_last(5)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\models.py", line 16, in return_last
+    return GameModel.object.all()[:n].reverse()
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\db\models\query.py", line 429, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2023-09-04 17:32:12,995 basehttp 1880 1780 "GET /last/ HTTP/1.1" 500 75934
+INFO 2023-09-04 17:32:13,288 autoreload 1880 9196 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\models.py changed, reloading.
+INFO 2023-09-04 17:32:13,761 autoreload 4972 19032 Watching for file changes with StatReloader
+ERROR 2023-09-04 17:32:13,909 log 4972 17744 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py", line 19, in last_game
+    last = GameModel().return_last(5)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\models.py", line 16, in return_last
+    return GameModel.object.all()[:n].reverse()
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\db\models\query.py", line 1695, in reverse
+    raise TypeError("Cannot reverse a query once a slice has been taken.")
+TypeError: Cannot reverse a query once a slice has been taken.
+ERROR 2023-09-04 17:32:13,912 basehttp 4972 17744 "GET /last/ HTTP/1.1" 500 74097
+ERROR 2023-09-04 17:32:14,377 log 4972 17744 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py", line 19, in last_game
+    last = GameModel().return_last(5)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\models.py", line 16, in return_last
+    return GameModel.object.all()[:n].reverse()
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\db\models\query.py", line 1695, in reverse
+    raise TypeError("Cannot reverse a query once a slice has been taken.")
+TypeError: Cannot reverse a query once a slice has been taken.
+ERROR 2023-09-04 17:32:14,379 basehttp 4972 17744 "GET /last/ HTTP/1.1" 500 74097
+ERROR 2023-09-04 17:32:15,367 log 4972 17744 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py", line 19, in last_game
+    last = GameModel().return_last(5)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\models.py", line 16, in return_last
+    return GameModel.object.all()[:n].reverse()
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\db\models\query.py", line 1695, in reverse
+    raise TypeError("Cannot reverse a query once a slice has been taken.")
+TypeError: Cannot reverse a query once a slice has been taken.
+ERROR 2023-09-04 17:32:15,369 basehttp 4972 17744 "GET /last/ HTTP/1.1" 500 74097
+ERROR 2023-09-04 17:32:28,198 log 4972 17744 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py", line 19, in last_game
+    last = GameModel().return_last(5)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\models.py", line 16, in return_last
+    return GameModel.object.all().reverse()[:n]
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\db\models\query.py", line 1695, in reverse
+    raise TypeError("Cannot reverse a query once a slice has been taken.")
+TypeError: Cannot reverse a query once a slice has been taken.
+ERROR 2023-09-04 17:32:28,200 basehttp 4972 17744 "GET /last/ HTTP/1.1" 500 74097
+INFO 2023-09-04 17:32:28,514 autoreload 4972 19032 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\models.py changed, reloading.
+INFO 2023-09-04 17:32:28,995 autoreload 15856 15784 Watching for file changes with StatReloader
+INFO 2023-09-04 17:32:29,174 basehttp 15856 4028 "GET /last/ HTTP/1.1" 200 502
+INFO 2023-09-04 17:32:29,966 basehttp 15856 4028 "GET /last/ HTTP/1.1" 200 502
+INFO 2023-09-04 17:32:30,659 basehttp 15856 4028 "GET /last/ HTTP/1.1" 200 502
+INFO 2023-09-04 17:32:48,589 basehttp 15856 4028 "GET /last/ HTTP/1.1" 200 502
+INFO 2023-09-04 17:32:48,998 autoreload 15856 15784 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\models.py changed, reloading.
+INFO 2023-09-04 17:32:49,460 autoreload 16024 4960 Watching for file changes with StatReloader
+INFO 2023-09-04 17:32:49,674 basehttp 16024 10528 "GET /last/ HTTP/1.1" 200 502
+INFO 2023-09-04 17:32:52,399 basehttp 16024 10528 "GET /last/ HTTP/1.1" 200 502
+INFO 2023-09-04 17:33:17,561 autoreload 16024 4960 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\models.py changed, reloading.
+INFO 2023-09-04 17:33:18,004 autoreload 16744 14176 Watching for file changes with StatReloader
+ERROR 2023-09-04 17:33:19,280 log 16744 17532 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py", line 19, in last_game
+    last = GameModel().return_last(5)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\models.py", line 16, in return_last
+    return GameModel.object.all()[-n:]
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\db\models\query.py", line 429, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2023-09-04 17:33:19,282 basehttp 16744 17532 "GET /last/ HTTP/1.1" 500 75916
+ERROR 2023-09-04 17:33:20,176 log 16744 17532 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\views.py", line 19, in last_game
+    last = GameModel().return_last(5)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\models.py", line 16, in return_last
+    return GameModel.object.all()[-n:]
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\db\models\query.py", line 429, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2023-09-04 17:33:20,178 basehttp 16744 17532 "GET /last/ HTTP/1.1" 500 75916
+INFO 2023-09-04 17:33:57,598 autoreload 16744 14176 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\models.py changed, reloading.
+INFO 2023-09-04 17:33:58,045 autoreload 14132 4188 Watching for file changes with StatReloader
+INFO 2023-09-04 17:34:20,018 autoreload 14132 4188 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\models.py changed, reloading.
+INFO 2023-09-04 17:34:20,503 autoreload 12144 15824 Watching for file changes with StatReloader
+INFO 2023-09-04 17:34:39,383 autoreload 12144 15824 C:\Users\dsokolovskiy\PycharmProjects\gb_django\seminar_2\seminar_app\models.py changed, reloading.
+INFO 2023-09-04 17:34:39,857 autoreload 16708 19388 Watching for file changes with StatReloader
+INFO 2023-09-04 17:34:40,876 basehttp 16708 19336 "GET /last/ HTTP/1.1" 200 505
+INFO 2023-09-04 17:34:44,270 basehttp 16708 19336 "GET /last/ HTTP/1.1" 200 505
+INFO 2023-09-04 17:34:45,553 basehttp 16708 19336 "GET /last/ HTTP/1.1" 200 505
+INFO 2023-09-04 17:34:49,464 basehttp 16708 19336 "GET / HTTP/1.1" 200 97
+INFO 2023-09-04 17:34:52,208 basehttp 16708 19336 "GET / HTTP/1.1" 200 97
+INFO 2023-09-04 17:34:52,755 basehttp 16708 19336 "GET / HTTP/1.1" 200 97
+INFO 2023-09-04 17:34:53,264 basehttp 16708 19336 "GET / HTTP/1.1" 200 97
+INFO 2023-09-04 17:34:53,745 basehttp 16708 19336 "GET / HTTP/1.1" 200 97
+INFO 2023-09-04 17:34:54,309 basehttp 16708 19336 "GET / HTTP/1.1" 200 97
+INFO 2023-09-04 17:34:59,309 basehttp 16708 19336 "GET /last/ HTTP/1.1" 200 505
