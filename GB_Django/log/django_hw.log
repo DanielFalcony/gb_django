@@ -401,3 +401,129 @@ INFO 2023-09-04 17:34:53,264 basehttp 16708 19336 "GET / HTTP/1.1" 200 97
 INFO 2023-09-04 17:34:53,745 basehttp 16708 19336 "GET / HTTP/1.1" 200 97
 INFO 2023-09-04 17:34:54,309 basehttp 16708 19336 "GET / HTTP/1.1" 200 97
 INFO 2023-09-04 17:34:59,309 basehttp 16708 19336 "GET /last/ HTTP/1.1" 200 505
+INFO 2023-09-04 22:08:55,340 autoreload 9276 21212 Watching for file changes with StatReloader
+INFO 2023-09-04 22:08:58,680 basehttp 9276 12592 "GET / HTTP/1.1" 200 97
+WARNING 2023-09-04 22:08:58,824 log 9276 12592 Not Found: /favicon.ico
+WARNING 2023-09-04 22:08:58,824 basehttp 9276 12592 "GET /favicon.ico HTTP/1.1" 404 2616
+INFO 2023-09-04 22:09:13,390 basehttp 9276 12592 "GET / HTTP/1.1" 200 97
+INFO 2023-09-04 22:09:21,823 basehttp 9276 12592 "GET /authors HTTP/1.1" 301 0
+INFO 2023-09-04 22:09:21,827 basehttp 9276 19616 "GET /authors/ HTTP/1.1" 200 163
+INFO 2023-09-04 22:10:49,417 basehttp 9276 19616 "GET /authors/ HTTP/1.1" 200 163
+INFO 2023-09-04 22:10:49,510 autoreload 9276 21212 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 22:10:49,793 autoreload 7832 13288 Watching for file changes with StatReloader
+ERROR 2023-09-04 22:10:52,116 log 7832 20708 Internal Server Error: /authors/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar_app\views.py", line 26, in author
+    result = [i + '\n' for i in res]
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar_app\views.py", line 26, in <listcomp>
+    result = [i + '\n' for i in res]
+              ~~^~~~~~
+TypeError: unsupported operand type(s) for +: 'Authors' and 'str'
+ERROR 2023-09-04 22:10:52,117 basehttp 7832 20708 "GET /authors/ HTTP/1.1" 500 73216
+ERROR 2023-09-04 22:11:21,194 log 7832 20708 Internal Server Error: /authors/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar_app\views.py", line 26, in author
+    result = [i + '<br>' for i in res]
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar_app\views.py", line 26, in <listcomp>
+    result = [i + '<br>' for i in res]
+              ^^^^^^^^
+TypeError: unsupported operand type(s) for +: 'Authors' and 'str'
+ERROR 2023-09-04 22:11:21,195 basehttp 7832 20708 "GET /authors/ HTTP/1.1" 500 73248
+INFO 2023-09-04 22:11:21,632 autoreload 7832 13288 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 22:11:21,910 autoreload 4368 11300 Watching for file changes with StatReloader
+ERROR 2023-09-04 22:11:22,139 log 4368 20852 Internal Server Error: /authors/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar_app\views.py", line 26, in author
+    result = [i + '<br>' for i in res]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar_app\views.py", line 26, in <listcomp>
+    result = [i + '<br>' for i in res]
+              ~~^~~~~~~~
+TypeError: unsupported operand type(s) for +: 'Authors' and 'str'
+ERROR 2023-09-04 22:11:22,140 basehttp 4368 20852 "GET /authors/ HTTP/1.1" 500 73256
+ERROR 2023-09-04 22:11:25,586 log 4368 20852 Internal Server Error: /authors/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar_app\views.py", line 26, in author
+    result = [i + '<br>' for i in res]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar_app\views.py", line 26, in <listcomp>
+    result = [i + '<br>' for i in res]
+              ~~^~~~~~~~
+TypeError: unsupported operand type(s) for +: 'Authors' and 'str'
+ERROR 2023-09-04 22:11:25,587 basehttp 4368 20852 "GET /authors/ HTTP/1.1" 500 73256
+ERROR 2023-09-04 22:12:02,138 log 4368 20852 Internal Server Error: /authors/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar_app\views.py", line 26, in author
+    result = [str(i) + '<br>' for i in res]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar_app\views.py", line 26, in <listcomp>
+    result = [str(i) + '<br>' for i in res]
+              ^^^^^^^^^^
+TypeError: unsupported operand type(s) for +: 'Authors' and 'str'
+ERROR 2023-09-04 22:12:02,139 basehttp 4368 20852 "GET /authors/ HTTP/1.1" 500 73276
+INFO 2023-09-04 22:12:02,801 autoreload 4368 11300 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 22:12:03,092 autoreload 8692 20528 Watching for file changes with StatReloader
+INFO 2023-09-04 22:12:03,374 basehttp 8692 6072 "GET /authors/ HTTP/1.1" 200 203
+INFO 2023-09-04 22:12:14,657 basehttp 8692 6072 "GET /authors/ HTTP/1.1" 200 203
+INFO 2023-09-04 22:12:15,505 basehttp 8692 6072 "GET /authors/ HTTP/1.1" 200 203
+INFO 2023-09-04 22:12:15,516 autoreload 8692 20528 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 22:12:15,793 autoreload 17968 1228 Watching for file changes with StatReloader
+INFO 2023-09-04 22:12:16,115 basehttp 17968 21168 "GET /authors/ HTTP/1.1" 200 193
+INFO 2023-09-04 22:12:22,620 basehttp 17968 21168 "GET /authors/ HTTP/1.1" 200 193
+INFO 2023-09-04 22:12:23,101 basehttp 17968 21168 "GET /authors/ HTTP/1.1" 200 193
+INFO 2023-09-04 22:12:23,123 autoreload 17968 1228 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 22:12:23,405 autoreload 4672 16984 Watching for file changes with StatReloader
+INFO 2023-09-04 22:12:23,674 basehttp 4672 16540 "GET /authors/ HTTP/1.1" 200 203
+INFO 2023-09-04 22:20:23,985 autoreload 4672 16984 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 22:20:24,280 autoreload 12816 17304 Watching for file changes with StatReloader
+INFO 2023-09-04 22:20:27,559 basehttp 12816 11408 "GET / HTTP/1.1" 200 85
+WARNING 2023-09-04 22:20:33,923 log 12816 11408 Not Found: /game
+WARNING 2023-09-04 22:20:33,923 basehttp 12816 11408 "GET /game HTTP/1.1" 404 2595
+INFO 2023-09-04 22:21:04,246 autoreload 12816 17304 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar_app\urls.py changed, reloading.
+INFO 2023-09-04 22:21:04,524 autoreload 17688 6736 Watching for file changes with StatReloader
+INFO 2023-09-04 22:21:04,787 basehttp 17688 19688 "GET /game HTTP/1.1" 301 0
+INFO 2023-09-04 22:21:04,791 basehttp 17688 20532 "GET /game/ HTTP/1.1" 200 85
+INFO 2023-09-04 22:21:07,474 basehttp 17688 20532 "GET /game/ HTTP/1.1" 200 85
+INFO 2023-09-04 22:21:22,024 autoreload 17688 6736 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar_app\urls.py changed, reloading.
+INFO 2023-09-04 22:21:22,295 autoreload 19084 13172 Watching for file changes with StatReloader
+INFO 2023-09-04 22:21:23,362 basehttp 19084 9040 "GET / HTTP/1.1" 200 85
+INFO 2023-09-04 22:21:28,036 basehttp 19084 9040 "GET /game/ HTTP/1.1" 200 97
+WARNING 2023-09-04 22:21:32,732 log 19084 9040 Not Found: /last
+WARNING 2023-09-04 22:21:32,732 basehttp 19084 9040 "GET /last HTTP/1.1" 404 2765
+INFO 2023-09-04 22:21:40,488 basehttp 19084 9040 "GET /last_game HTTP/1.1" 301 0
+INFO 2023-09-04 22:21:40,492 basehttp 19084 17620 "GET /last_game/ HTTP/1.1" 200 505
+INFO 2023-09-04 22:21:50,401 basehttp 19084 17620 "GET /authors/ HTTP/1.1" 200 203
+INFO 2023-09-04 23:46:17,952 autoreload 19084 13172 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-09-04 23:46:18,257 autoreload 20964 17732 Watching for file changes with StatReloader
