@@ -18,3 +18,5 @@ class Command(BaseCommand):
                             address=f'some adress house.{i}',
                             reg_date=f'2002-05-12', )
             client.save()
+            self.stdout.write(f'{client}')
+
