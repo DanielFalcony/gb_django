@@ -2,3 +2,53 @@ INFO 2023-09-03 23:48:02,508 autoreload 2896 19716 Watching for file changes wit
 INFO 2023-09-03 23:48:04,933 basehttp 2896 15436 "GET / HTTP/1.1" 200 10664
 WARNING 2023-09-03 23:48:05,077 log 2896 15436 Not Found: /favicon.ico
 WARNING 2023-09-03 23:48:05,078 basehttp 2896 15436 "GET /favicon.ico HTTP/1.1" 404 2113
+INFO 2023-09-06 22:29:42,498 autoreload 17320 12772 Watching for file changes with StatReloader
+INFO 2023-09-06 22:32:45,458 autoreload 10760 5488 Watching for file changes with StatReloader
+INFO 2023-09-06 22:33:32,195 autoreload 10760 5488 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp2\apps.py changed, reloading.
+INFO 2023-09-06 22:33:32,534 autoreload 21536 26604 Watching for file changes with StatReloader
+INFO 2023-09-06 22:34:10,340 autoreload 6088 10148 Watching for file changes with StatReloader
+INFO 2023-09-06 22:34:36,830 autoreload 6088 10148 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-06 22:34:37,092 autoreload 17152 15896 Watching for file changes with StatReloader
+INFO 2023-09-06 22:34:41,037 autoreload 21872 336 Watching for file changes with StatReloader
+WARNING 2023-09-06 22:34:45,318 log 21872 5232 Not Found: /
+WARNING 2023-09-06 22:34:45,318 basehttp 21872 5232 "GET / HTTP/1.1" 404 2167
+WARNING 2023-09-06 22:34:45,432 log 21872 5232 Not Found: /favicon.ico
+WARNING 2023-09-06 22:34:45,432 basehttp 21872 5232 "GET /favicon.ico HTTP/1.1" 404 2218
+WARNING 2023-09-06 22:35:31,844 log 21872 5232 Not Found: /les3
+WARNING 2023-09-06 22:35:31,844 basehttp 21872 5232 "GET /les3 HTTP/1.1" 404 2197
+WARNING 2023-09-06 22:42:13,780 log 21872 21672 Not Found: /les3/
+WARNING 2023-09-06 22:42:13,781 basehttp 21872 21672 "GET /les3/ HTTP/1.1" 404 2441
+INFO 2023-09-06 22:42:23,952 basehttp 21872 21672 "GET /les3/hello/ HTTP/1.1" 200 26
+INFO 2023-09-06 22:42:27,820 basehttp 21872 21672 "GET /les3/hello2/ HTTP/1.1" 200 23
+INFO 2023-09-06 22:46:30,574 autoreload 21872 336 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-06 22:46:30,856 autoreload 23888 11312 Watching for file changes with StatReloader
+INFO 2023-09-06 22:46:59,490 autoreload 23888 11312 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-06 22:46:59,754 autoreload 22456 20680 Watching for file changes with StatReloader
+INFO 2023-09-06 22:48:28,273 autoreload 22456 20680 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-06 22:48:28,541 autoreload 17176 15912 Watching for file changes with StatReloader
+INFO 2023-09-06 23:00:22,291 autoreload 17176 15912 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-06 23:00:22,573 autoreload 25028 12960 Watching for file changes with StatReloader
+INFO 2023-09-06 23:03:59,660 autoreload 26044 18536 Watching for file changes with StatReloader
+INFO 2023-09-06 23:04:19,016 autoreload 26044 18536 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-06 23:04:19,227 autoreload 20588 22912 Watching for file changes with StatReloader
+INFO 2023-09-06 23:04:28,476 autoreload 20588 22912 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-06 23:04:28,691 autoreload 8916 18700 Watching for file changes with StatReloader
+WARNING 2023-09-06 23:04:29,919 log 8916 26200 Not Found: /
+WARNING 2023-09-06 23:04:29,920 basehttp 8916 26200 "GET / HTTP/1.1" 404 2167
+WARNING 2023-09-06 23:04:46,978 log 8916 26200 Not Found: /les3/hello2/posts/
+WARNING 2023-09-06 23:04:46,978 basehttp 8916 26200 "GET /les3/hello2/posts/ HTTP/1.1" 404 2885
+WARNING 2023-09-06 23:04:53,544 log 8916 26200 Not Found: /les3/hello2/posts/2022
+WARNING 2023-09-06 23:04:53,544 basehttp 8916 26200 "GET /les3/hello2/posts/2022 HTTP/1.1" 404 2897
+WARNING 2023-09-06 23:05:01,071 log 8916 26200 Not Found: /les3/hello2/posts/2022
+WARNING 2023-09-06 23:05:01,072 basehttp 8916 26200 "GET /les3/hello2/posts/2022 HTTP/1.1" 404 2897
+WARNING 2023-09-06 23:05:16,056 log 8916 26200 Not Found: /les3/hello2/posts/2022/
+WARNING 2023-09-06 23:05:16,057 basehttp 8916 26200 "GET /les3/hello2/posts/2022/ HTTP/1.1" 404 2900
+INFO 2023-09-06 23:06:23,116 basehttp 8916 26200 "GET /les3/posts/2022/ HTTP/1.1" 200 19
+INFO 2023-09-06 23:06:29,267 basehttp 8916 26200 "GET /les3/posts/2022/6 HTTP/1.1" 301 0
+INFO 2023-09-06 23:06:29,270 basehttp 8916 17732 "GET /les3/posts/2022/6/ HTTP/1.1" 200 21
+INFO 2023-09-06 23:09:02,934 autoreload 8916 18700 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-06 23:09:03,222 autoreload 6856 14284 Watching for file changes with StatReloader
+INFO 2023-09-06 23:09:08,513 autoreload 6856 14284 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-06 23:09:08,780 autoreload 23304 25316 Watching for file changes with StatReloader
+INFO 2023-09-06 23:11:58,248 autoreload 22960 12376 Watching for file changes with StatReloader
+INFO 2023-09-06 23:14:04,524 basehttp 22960 18360 "GET /les3/posts/2022/6/python/ HTTP/1.1" 200 360
