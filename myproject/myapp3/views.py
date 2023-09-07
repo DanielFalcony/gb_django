@@ -1,4 +1,5 @@
 from django.http import HttpResponse, JsonResponse
+from django.shortcuts import render
 from django.views.generic import View
 
 
@@ -35,3 +36,8 @@ def post_detail(request, year, month, slug):
                    "Python работает быстрее..."
     }
     return JsonResponse(post, json_dumps_params={'ensure_ascii': False})
+
+
+def my_view(request):
+    context = {'name': 'John'}
+    return render(request, 'myapp3/my_template.html', context)

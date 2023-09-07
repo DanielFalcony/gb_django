@@ -52,3 +52,16 @@ INFO 2023-09-06 23:09:08,513 autoreload 6856 14284 A:\PythonPyCharm\PyCharmProje
 INFO 2023-09-06 23:09:08,780 autoreload 23304 25316 Watching for file changes with StatReloader
 INFO 2023-09-06 23:11:58,248 autoreload 22960 12376 Watching for file changes with StatReloader
 INFO 2023-09-06 23:14:04,524 basehttp 22960 18360 "GET /les3/posts/2022/6/python/ HTTP/1.1" 200 360
+INFO 2023-09-07 17:18:24,584 autoreload 20008 6428 Watching for file changes with StatReloader
+INFO 2023-09-07 17:18:41,258 autoreload 20008 6428 C:\Users\dsokolovskiy\PycharmProjects\gb_django\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-07 17:18:41,680 autoreload 21096 17104 Watching for file changes with StatReloader
+WARNING 2023-09-07 17:18:44,125 log 21096 16336 Not Found: /
+WARNING 2023-09-07 17:18:44,126 basehttp 21096 16336 "GET / HTTP/1.1" 404 2167
+WARNING 2023-09-07 17:18:44,240 log 21096 16336 Not Found: /favicon.ico
+WARNING 2023-09-07 17:18:44,241 basehttp 21096 16336 "GET /favicon.ico HTTP/1.1" 404 2218
+WARNING 2023-09-07 17:18:50,081 log 21096 16336 Not Found: /index
+WARNING 2023-09-07 17:18:50,081 basehttp 21096 16336 "GET /index HTTP/1.1" 404 2200
+WARNING 2023-09-07 17:18:53,167 log 21096 16336 Not Found: /index/
+WARNING 2023-09-07 17:18:53,168 basehttp 21096 16336 "GET /index/ HTTP/1.1" 404 2203
+INFO 2023-09-07 17:19:02,077 basehttp 21096 16336 "GET /les3 HTTP/1.1" 301 0
+INFO 2023-09-07 17:19:02,103 basehttp 21096 13956 "GET /les3/ HTTP/1.1" 200 374
