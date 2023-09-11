@@ -1,6 +1,7 @@
 from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render
 from django.views.generic import View
+from django.views.generic import TemplateView
 
 
 def hello(request):
@@ -41,3 +42,28 @@ def post_detail(request, year, month, slug):
 def my_view(request):
     context = {'name': 'John'}
     return render(request, 'myapp3/my_template.html', context)
+
+
+class TemplIf(TemplateView):
+    template_name = 'myapp3/templ_if.html'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['message'] = 'Привет, мир!'
+        context['number'] = 5
+        return context
+
+
+def view_for(request):
+    my_list = ['apple', 'banana', 'orange']
+    my_dict = {
+        'каждый': 'красный',
+        'охотник': 'оранжевый',
+        'желает': 'жёлтый',
+        'знать': 'зеленый',
+        'где': 'голубой',
+        'сидит': 'синий',
+        'фазан': 'фиолетовый',
+    }
+    context = {'my_list': my_list, 'my_dict': my_dict}
+    return render(request, 'myapp3/templ_for.html', context)

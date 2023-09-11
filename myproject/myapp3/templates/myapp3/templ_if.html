@@ -10,8 +10,16 @@
 <body>
     {% if message %}
         <p>Вам доступно сообщение: <br> {{ message }}</p>
-    {% endif %}}
+    {% endif %}
 
-    <p>К прочтению предлагается {{ number }}</p>
+    <p>К прочтению предлагается {{ number }}
+    {% if number == 1 %}
+        пост
+    {% elif number >= 2 and number <= 4  %}
+        поста
+    {% else %}
+        постов
+    {% endif %}
+    </p>
 </body>
 </html>

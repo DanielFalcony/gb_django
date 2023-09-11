@@ -65,3 +65,107 @@ WARNING 2023-09-07 17:18:53,167 log 21096 16336 Not Found: /index/
 WARNING 2023-09-07 17:18:53,168 basehttp 21096 16336 "GET /index/ HTTP/1.1" 404 2203
 INFO 2023-09-07 17:19:02,077 basehttp 21096 16336 "GET /les3 HTTP/1.1" 301 0
 INFO 2023-09-07 17:19:02,103 basehttp 21096 13956 "GET /les3/ HTTP/1.1" 200 374
+INFO 2023-09-11 13:07:41,314 autoreload 16064 4560 Watching for file changes with StatReloader
+WARNING 2023-09-11 13:07:43,308 log 16064 14296 Not Found: /
+WARNING 2023-09-11 13:07:43,309 basehttp 16064 14296 "GET / HTTP/1.1" 404 2167
+WARNING 2023-09-11 13:07:43,423 log 16064 14296 Not Found: /favicon.ico
+WARNING 2023-09-11 13:07:43,424 basehttp 16064 14296 "GET /favicon.ico HTTP/1.1" 404 2218
+INFO 2023-09-11 13:07:48,615 basehttp 16064 14296 "GET /les3 HTTP/1.1" 301 0
+INFO 2023-09-11 13:07:48,634 basehttp 16064 17380 "GET /les3/ HTTP/1.1" 200 374
+INFO 2023-09-11 13:13:56,693 basehttp 16064 6372 "GET /les3/ HTTP/1.1" 200 374
+INFO 2023-09-11 16:36:52,224 autoreload 16064 4560 C:\Users\dsokolovskiy\PycharmProjects\gb_django\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-11 16:36:52,732 autoreload 9032 18244 Watching for file changes with StatReloader
+INFO 2023-09-11 16:39:59,484 autoreload 9032 18244 C:\Users\dsokolovskiy\PycharmProjects\gb_django\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-11 16:40:00,048 autoreload 14416 15580 Watching for file changes with StatReloader
+INFO 2023-09-11 16:40:17,890 autoreload 14416 15580 C:\Users\dsokolovskiy\PycharmProjects\gb_django\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-11 16:40:18,336 autoreload 4384 16020 Watching for file changes with StatReloader
+INFO 2023-09-11 16:42:18,111 autoreload 4384 16020 C:\Users\dsokolovskiy\PycharmProjects\gb_django\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-11 16:42:18,705 autoreload 4744 14320 Watching for file changes with StatReloader
+INFO 2023-09-11 16:42:37,589 autoreload 4744 14320 C:\Users\dsokolovskiy\PycharmProjects\gb_django\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-11 16:42:37,993 autoreload 15324 8784 Watching for file changes with StatReloader
+WARNING 2023-09-11 16:42:45,505 log 15324 15096 Not Found: /
+WARNING 2023-09-11 16:42:45,506 basehttp 15324 15096 "GET / HTTP/1.1" 404 2167
+INFO 2023-09-11 16:42:56,516 basehttp 15324 15096 "GET /les3/ HTTP/1.1" 200 375
+INFO 2023-09-11 16:42:59,800 basehttp 15324 15096 "GET /les3/if HTTP/1.1" 301 0
+INFO 2023-09-11 16:42:59,818 basehttp 15324 15388 "GET /les3/if/ HTTP/1.1" 200 546
+INFO 2023-09-11 16:43:48,804 basehttp 15324 15388 "GET /les3/if/ HTTP/1.1" 200 545
+INFO 2023-09-11 16:44:21,663 autoreload 15324 8784 C:\Users\dsokolovskiy\PycharmProjects\gb_django\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-11 16:44:22,090 autoreload 14456 13872 Watching for file changes with StatReloader
+INFO 2023-09-11 16:44:22,233 basehttp 14456 10840 "GET /les3/if/ HTTP/1.1" 200 546
+INFO 2023-09-11 16:55:28,426 autoreload 14456 13872 C:\Users\dsokolovskiy\PycharmProjects\gb_django\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-11 16:55:28,831 autoreload 13608 14016 Watching for file changes with StatReloader
+INFO 2023-09-11 16:59:23,255 autoreload 13608 14016 C:\Users\dsokolovskiy\PycharmProjects\gb_django\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-11 16:59:23,712 autoreload 10152 17176 Watching for file changes with StatReloader
+INFO 2023-09-11 16:59:27,211 autoreload 10152 17176 C:\Users\dsokolovskiy\PycharmProjects\gb_django\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-11 16:59:27,615 autoreload 1176 13264 Watching for file changes with StatReloader
+INFO 2023-09-11 17:02:07,293 autoreload 1176 13264 C:\Users\dsokolovskiy\PycharmProjects\gb_django\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-11 17:02:07,781 autoreload 9144 7668 Watching for file changes with StatReloader
+WARNING 2023-09-11 17:02:13,227 log 9144 12372 Not Found: /
+WARNING 2023-09-11 17:02:13,228 basehttp 9144 12372 "GET / HTTP/1.1" 404 2167
+WARNING 2023-09-11 17:02:18,105 log 9144 12372 Not Found: /last/
+WARNING 2023-09-11 17:02:18,105 basehttp 9144 12372 "GET /last/ HTTP/1.1" 404 2200
+WARNING 2023-09-11 17:02:31,506 log 9144 12372 Not Found: /last/templ_for
+WARNING 2023-09-11 17:02:31,507 basehttp 9144 12372 "GET /last/templ_for HTTP/1.1" 404 2227
+WARNING 2023-09-11 17:02:58,491 log 9144 12372 Not Found: /last/for
+WARNING 2023-09-11 17:02:58,491 basehttp 9144 12372 "GET /last/for HTTP/1.1" 404 2209
+WARNING 2023-09-11 17:03:16,259 log 9144 12372 Not Found: /les3/templ_for
+WARNING 2023-09-11 17:03:16,260 basehttp 9144 12372 "GET /les3/templ_for HTTP/1.1" 404 3616
+INFO 2023-09-11 17:03:25,364 basehttp 9144 12372 "GET /les3/for HTTP/1.1" 301 0
+ERROR 2023-09-11 17:03:25,439 log 9144 12396 Internal Server Error: /les3/for/
+Traceback (most recent call last):
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\myproject\myapp3\views.py", line 70, in view_for
+    return render(request, 'myapp3/templ_for', context)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/templ_for
+ERROR 2023-09-11 17:03:25,441 basehttp 9144 12396 "GET /les3/for/ HTTP/1.1" 500 85420
+WARNING 2023-09-11 17:03:55,571 log 9144 12396 Not Found: /les3/templ_for/
+WARNING 2023-09-11 17:03:55,572 basehttp 9144 12396 "GET /les3/templ_for/ HTTP/1.1" 404 3619
+ERROR 2023-09-11 17:04:22,478 log 9144 12396 Internal Server Error: /les3/for/
+Traceback (most recent call last):
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\myproject\myapp3\views.py", line 70, in view_for
+    return render(request, 'myapp3/templ_for', context)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/templ_for
+ERROR 2023-09-11 17:04:22,480 basehttp 9144 12396 "GET /les3/for/ HTTP/1.1" 500 85420
+INFO 2023-09-11 17:07:43,986 basehttp 9144 12396 "GET /les3/ HTTP/1.1" 200 375
+WARNING 2023-09-11 17:07:48,620 log 9144 12396 Not Found: /les3/templ
+WARNING 2023-09-11 17:07:48,621 basehttp 9144 12396 "GET /les3/templ HTTP/1.1" 404 3604
+ERROR 2023-09-11 17:08:00,715 log 9144 12396 Internal Server Error: /les3/for/
+Traceback (most recent call last):
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\myproject\myapp3\views.py", line 70, in view_for
+    return render(request, 'myapp3/templ_for', context)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/templ_for
+ERROR 2023-09-11 17:08:00,718 basehttp 9144 12396 "GET /les3/for/ HTTP/1.1" 500 85420
+INFO 2023-09-11 17:09:01,985 autoreload 9144 7668 C:\Users\dsokolovskiy\PycharmProjects\gb_django\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-11 17:09:02,459 autoreload 12164 1800 Watching for file changes with StatReloader
+INFO 2023-09-11 17:09:02,739 basehttp 12164 11304 "GET /les3/for/ HTTP/1.1" 200 1059
+INFO 2023-09-11 17:44:57,534 autoreload 12164 1800 C:\Users\dsokolovskiy\PycharmProjects\gb_django\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-11 17:44:58,029 autoreload 13612 4092 Watching for file changes with StatReloader
