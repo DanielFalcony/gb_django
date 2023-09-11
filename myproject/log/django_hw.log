@@ -169,3 +169,41 @@ INFO 2023-09-11 17:09:02,459 autoreload 12164 1800 Watching for file changes wit
 INFO 2023-09-11 17:09:02,739 basehttp 12164 11304 "GET /les3/for/ HTTP/1.1" 200 1059
 INFO 2023-09-11 17:44:57,534 autoreload 12164 1800 C:\Users\dsokolovskiy\PycharmProjects\gb_django\myproject\myapp3\urls.py changed, reloading.
 INFO 2023-09-11 17:44:58,029 autoreload 13612 4092 Watching for file changes with StatReloader
+INFO 2023-09-11 20:54:03,520 autoreload 20632 14196 Watching for file changes with StatReloader
+WARNING 2023-09-11 20:54:04,892 log 20632 26324 Not Found: /
+WARNING 2023-09-11 20:54:04,893 basehttp 20632 26324 "GET / HTTP/1.1" 404 2167
+WARNING 2023-09-11 20:54:05,020 log 20632 26324 Not Found: /favicon.ico
+WARNING 2023-09-11 20:54:05,021 basehttp 20632 26324 "GET /favicon.ico HTTP/1.1" 404 2218
+INFO 2023-09-11 20:54:30,784 basehttp 20632 26324 "GET /les3 HTTP/1.1" 301 0
+INFO 2023-09-11 20:54:30,795 basehttp 20632 6616 "GET /les3/ HTTP/1.1" 200 375
+INFO 2023-09-11 20:57:44,216 basehttp 20632 6616 "GET /les3/index HTTP/1.1" 301 0
+INFO 2023-09-11 20:57:44,220 basehttp 20632 18476 "GET /les3/index/ HTTP/1.1" 200 437
+INFO 2023-09-11 20:57:49,627 basehttp 20632 18476 "GET /les3/about HTTP/1.1" 301 0
+INFO 2023-09-11 20:57:49,632 basehttp 20632 22520 "GET /les3/about/ HTTP/1.1" 200 442
+INFO 2023-09-11 20:59:51,718 autoreload 20632 14196 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-11 20:59:51,939 autoreload 23960 22876 Watching for file changes with StatReloader
+INFO 2023-09-11 21:07:50,197 basehttp 23960 14824 "GET /les3/about/ HTTP/1.1" 200 450
+INFO 2023-09-11 21:07:55,597 basehttp 23960 14824 "GET /les3/index/ HTTP/1.1" 200 509
+INFO 2023-09-11 21:09:47,397 autoreload 23960 22876 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myproject\urls.py changed, reloading.
+INFO 2023-09-11 21:09:47,675 autoreload 19588 19680 Watching for file changes with StatReloader
+INFO 2023-09-11 21:10:25,500 autoreload 19588 19680 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myproject\urls.py changed, reloading.
+INFO 2023-09-11 21:10:25,771 autoreload 20080 6804 Watching for file changes with StatReloader
+INFO 2023-09-11 21:10:37,634 basehttp 20080 11032 "GET / HTTP/1.1" 200 509
+INFO 2023-09-11 21:13:21,950 autoreload 20080 6804 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp3\models.py changed, reloading.
+INFO 2023-09-11 21:13:22,240 autoreload 19972 19032 Watching for file changes with StatReloader
+INFO 2023-09-11 21:14:40,740 autoreload 19972 19032 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp3\models.py changed, reloading.
+INFO 2023-09-11 21:14:41,010 autoreload 21804 14224 Watching for file changes with StatReloader
+INFO 2023-09-11 21:30:50,536 autoreload 21804 14224 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp3\models.py changed, reloading.
+INFO 2023-09-11 21:30:50,814 autoreload 24300 17996 Watching for file changes with StatReloader
+INFO 2023-09-11 21:31:36,789 autoreload 24300 17996 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp3\models.py changed, reloading.
+INFO 2023-09-11 21:31:37,073 autoreload 25768 13608 Watching for file changes with StatReloader
+INFO 2023-09-11 22:16:11,672 autoreload 23216 15072 Watching for file changes with StatReloader
+INFO 2023-09-11 22:16:13,702 basehttp 23216 24416 "GET / HTTP/1.1" 200 509
+INFO 2023-09-11 22:16:37,575 basehttp 23216 24416 "GET /les3/author/5 HTTP/1.1" 200 1582
+INFO 2023-09-11 22:16:47,287 basehttp 23216 24416 "GET /les3/post/34 HTTP/1.1" 200 887
+INFO 2023-09-11 22:16:58,678 basehttp 23216 24416 "GET /les3/post/33 HTTP/1.1" 200 945
+INFO 2023-09-11 22:17:12,564 basehttp 23216 24416 "GET /les3/author/1 HTTP/1.1" 200 1599
+INFO 2023-09-11 22:17:20,840 basehttp 23216 24416 "GET /les3/post/4 HTTP/1.1" 200 897
+INFO 2023-09-11 22:17:26,904 basehttp 23216 24416 "GET /les3/post/7 HTTP/1.1" 200 916
+INFO 2023-09-11 22:17:28,995 basehttp 23216 24416 "GET /les3/post/6 HTTP/1.1" 200 951
+INFO 2023-09-11 22:17:32,057 basehttp 23216 24416 "GET /les3/post/5 HTTP/1.1" 200 904

@@ -1,7 +1,9 @@
 from django.http import HttpResponse, JsonResponse
-from django.shortcuts import render
 from django.views.generic import View
 from django.views.generic import TemplateView
+from django.shortcuts import render, get_object_or_404
+
+from .models import Author, Post
 
 
 def hello(request):
@@ -67,3 +69,22 @@ def view_for(request):
     }
     context = {'my_list': my_list, 'my_dict': my_dict}
     return render(request, 'myapp3/templ_for.html', context)
+
+
+def index(request):
+    return render(request, 'myapp3/index.html')
+
+
+def about(request):
+    return render(request, 'myapp3/about.html')
+
+
+def author_posts(request, author_id):
+    author = get_object_or_404(Author, pk=author_id)
+    posts = Post.objects.filter(author=author).order_by('-id')[:5]
+    return render(request, 'myapp3/author_posts.html', {'author': author, 'posts': posts})
+
+
+def post_full(request, post_id):
+    post = get_object_or_404(Post, pk=post_id)
+    return render(request, 'myapp3/post_full.html', {'post': post})
