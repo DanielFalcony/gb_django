@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'hw_app',
     'hw2_app',
     'seminar_app',
+    'seminar3_app',
 ]
 
 MIDDLEWARE = [
@@ -55,7 +56,9 @@ ROOT_URLCONF = 'GB_project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            BASE_DIR / 'templates'
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -154,6 +157,16 @@ LOGGING = {
             'propagate': True,
         },
         'hw_app': {
+            'handlers': ['console', 'file'],  # 'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'seminar3_app': {
+            'handlers': ['console', 'file'],  # 'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'hw2_app': {
             'handlers': ['console', 'file'],  # 'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,

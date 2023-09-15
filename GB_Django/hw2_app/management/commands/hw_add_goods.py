@@ -1,6 +1,8 @@
 from django.core.management.base import BaseCommand
-from hw2_app.models import Goods
+from hw2_app.management.commands.fake_date import generate_random_date
 import random
+
+from hw2_app.models import Goods
 
 
 class Command(BaseCommand):
@@ -17,6 +19,6 @@ class Command(BaseCommand):
                          product_description=f'Some description{i} bla bla bla',
                          product_price=f'{random.uniform(1, 500):.2f}',
                          product_quantity=f'{random.randint(1, 100)}',
-                         date_item_add=f'2002-05-{i}',)
+                         date_item_add=generate_random_date(2022, 2023), )
             good.save()
             self.stdout.write(f'{good}')

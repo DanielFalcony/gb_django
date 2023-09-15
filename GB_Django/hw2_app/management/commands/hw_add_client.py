@@ -1,6 +1,5 @@
 from django.core.management.base import BaseCommand
 from hw2_app.models import Client
-import names
 
 
 class Command(BaseCommand):

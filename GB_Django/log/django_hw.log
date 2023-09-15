@@ -527,3 +527,2163 @@ INFO 2023-09-04 22:21:40,492 basehttp 19084 17620 "GET /last_game/ HTTP/1.1" 200
 INFO 2023-09-04 22:21:50,401 basehttp 19084 17620 "GET /authors/ HTTP/1.1" 200 203
 INFO 2023-09-04 23:46:17,952 autoreload 19084 13172 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar_app\models.py changed, reloading.
 INFO 2023-09-04 23:46:18,257 autoreload 20964 17732 Watching for file changes with StatReloader
+INFO 2023-09-13 23:57:39,598 autoreload 18696 11736 Watching for file changes with StatReloader
+INFO 2023-09-13 23:57:42,037 basehttp 18696 5740 "GET / HTTP/1.1" 200 229
+WARNING 2023-09-13 23:57:42,138 log 18696 5740 Not Found: /favicon.ico
+WARNING 2023-09-13 23:57:42,138 basehttp 18696 5740 "GET /favicon.ico HTTP/1.1" 404 2957
+WARNING 2023-09-13 23:58:13,420 log 18696 5740 Not Found: /heads_game/5
+WARNING 2023-09-13 23:58:13,420 basehttp 18696 5740 "GET /heads_game/5 HTTP/1.1" 404 2960
+INFO 2023-09-13 23:59:56,534 autoreload 18696 11736 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\GB_project\urls.py changed, reloading.
+INFO 2023-09-13 23:59:56,766 autoreload 20596 16060 Watching for file changes with StatReloader
+INFO 2023-09-14 00:01:12,794 autoreload 20596 16060 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar3_app\urls.py changed, reloading.
+INFO 2023-09-14 00:01:13,019 autoreload 5908 14240 Watching for file changes with StatReloader
+INFO 2023-09-14 00:05:07,845 autoreload 5908 14240 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar3_app\views.py changed, reloading.
+INFO 2023-09-14 00:05:08,071 autoreload 23452 15312 Watching for file changes with StatReloader
+INFO 2023-09-14 00:05:16,181 basehttp 23452 12420 "GET / HTTP/1.1" 200 229
+WARNING 2023-09-14 00:05:22,432 log 23452 12420 Not Found: /index
+WARNING 2023-09-14 00:05:22,432 basehttp 23452 12420 "GET /index HTTP/1.1" 404 3491
+ERROR 2023-09-14 00:05:51,867 log 23452 12420 Internal Server Error: /heads_game/5
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'endfor', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-09-14 00:05:51,870 basehttp 23452 12420 "GET /heads_game/5 HTTP/1.1" 500 169790
+ERROR 2023-09-14 00:06:34,390 log 23452 12420 Internal Server Error: /heads_game/5
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 9: 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-09-14 00:06:34,391 basehttp 23452 12420 "GET /heads_game/5 HTTP/1.1" 500 155041
+ERROR 2023-09-14 00:06:57,771 log 23452 12420 Internal Server Error: /heads_game/5
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'endfor', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-09-14 00:06:57,773 basehttp 23452 12420 "GET /heads_game/5 HTTP/1.1" 500 169955
+ERROR 2023-09-14 00:07:46,015 log 23452 12420 Internal Server Error: /heads_game/5
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+ERROR 2023-09-14 00:07:46,016 basehttp 23452 12420 "GET /heads_game/5 HTTP/1.1" 500 136192
+ERROR 2023-09-14 00:10:34,759 log 23452 12420 Internal Server Error: /heads_game/5
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+ERROR 2023-09-14 00:10:34,760 basehttp 23452 12420 "GET /heads_game/5 HTTP/1.1" 500 136192
+ERROR 2023-09-14 00:10:36,011 log 23452 12420 Internal Server Error: /heads_game/5
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-09-14 00:10:36,013 basehttp 23452 12420 "GET /heads_game/5 HTTP/1.1" 500 135799
+ERROR 2023-09-14 00:10:36,952 log 23452 12420 Internal Server Error: /heads_game/5
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-09-14 00:10:36,953 basehttp 23452 12420 "GET /heads_game/5 HTTP/1.1" 500 135799
+ERROR 2023-09-14 00:11:10,971 log 23452 12420 Internal Server Error: /heads_game/5
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-09-14 00:11:10,972 basehttp 23452 12420 "GET /heads_game/5 HTTP/1.1" 500 135799
+ERROR 2023-09-14 00:11:28,958 log 23452 12420 Internal Server Error: /heads_game/5
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+ERROR 2023-09-14 00:11:28,960 basehttp 23452 12420 "GET /heads_game/5 HTTP/1.1" 500 136192
+ERROR 2023-09-14 00:12:32,202 log 23452 12420 Internal Server Error: /heads_game/5
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+ERROR 2023-09-14 00:12:32,204 basehttp 23452 12420 "GET /heads_game/5 HTTP/1.1" 500 136192
+ERROR 2023-09-14 00:12:32,855 log 23452 12420 Internal Server Error: /heads_game/5
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+ERROR 2023-09-14 00:12:32,856 basehttp 23452 12420 "GET /heads_game/5 HTTP/1.1" 500 136192
+ERROR 2023-09-14 00:14:18,280 log 23452 12420 Internal Server Error: /heads_game/5
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+ERROR 2023-09-14 00:14:18,282 basehttp 23452 12420 "GET /heads_game/5 HTTP/1.1" 500 136192
+INFO 2023-09-14 00:14:18,316 autoreload 23452 15312 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\GB_project\settings.py changed, reloading.
+INFO 2023-09-14 00:14:18,559 autoreload 8220 20996 Watching for file changes with StatReloader
+ERROR 2023-09-14 00:14:20,569 log 8220 4944 Internal Server Error: /heads_game/5
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+ERROR 2023-09-14 00:14:20,571 basehttp 8220 4944 "GET /heads_game/5 HTTP/1.1" 500 136919
+INFO 2023-09-14 00:14:41,039 basehttp 8220 4944 "GET / HTTP/1.1" 200 229
+WARNING 2023-09-14 00:15:22,753 log 8220 4944 Not Found: /seminar3_app/
+WARNING 2023-09-14 00:15:22,754 basehttp 8220 4944 "GET /seminar3_app/ HTTP/1.1" 404 3515
+ERROR 2023-09-14 00:15:44,640 log 8220 4944 Internal Server Error: /heads_game/3
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+ERROR 2023-09-14 00:15:44,642 basehttp 8220 4944 "GET /heads_game/3 HTTP/1.1" 500 136364
+ERROR 2023-09-14 00:16:39,910 log 8220 4944 Internal Server Error: /heads_game/3
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+ERROR 2023-09-14 00:16:39,912 basehttp 8220 4944 "GET /heads_game/3 HTTP/1.1" 500 136501
+ERROR 2023-09-14 00:17:57,453 log 8220 4944 Internal Server Error: /heads_game/3
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+ERROR 2023-09-14 00:17:57,454 basehttp 8220 4944 "GET /heads_game/3 HTTP/1.1" 500 136501
+INFO 2023-09-14 00:17:57,546 autoreload 8220 20996 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\GB_project\urls.py changed, reloading.
+INFO 2023-09-14 00:17:57,772 autoreload 6396 20416 Watching for file changes with StatReloader
+ERROR 2023-09-14 00:17:59,138 log 6396 1176 Internal Server Error: /heads_game/3
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+ERROR 2023-09-14 00:17:59,140 basehttp 6396 1176 "GET /heads_game/3 HTTP/1.1" 500 136501
+ERROR 2023-09-14 00:18:00,837 log 6396 1176 Internal Server Error: /heads_game/3
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+ERROR 2023-09-14 00:18:00,838 basehttp 6396 1176 "GET /heads_game/3 HTTP/1.1" 500 136501
+ERROR 2023-09-14 00:20:40,552 log 6396 1176 Internal Server Error: /heads_game/3
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+ERROR 2023-09-14 00:20:40,553 basehttp 6396 1176 "GET /heads_game/3 HTTP/1.1" 500 136501
+INFO 2023-09-14 00:20:41,044 autoreload 6396 20416 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\GB_project\urls.py changed, reloading.
+INFO 2023-09-14 00:20:41,280 autoreload 25536 4544 Watching for file changes with StatReloader
+ERROR 2023-09-14 00:20:46,205 log 25536 19676 Internal Server Error: /heads_game/3
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+ERROR 2023-09-14 00:20:46,207 basehttp 25536 19676 "GET /heads_game/3 HTTP/1.1" 500 136501
+INFO 2023-09-14 00:22:05,353 autoreload 12516 12020 Watching for file changes with StatReloader
+ERROR 2023-09-14 00:22:08,919 log 12516 15608 Internal Server Error: /heads_game/3
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+ERROR 2023-09-14 00:22:08,921 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 500 136501
+ERROR 2023-09-14 00:22:34,630 log 12516 15608 Internal Server Error: /heads_game/3
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: seminar3_app/base.html
+ERROR 2023-09-14 00:22:34,632 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 500 136501
+INFO 2023-09-14 00:22:36,551 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 200 486
+INFO 2023-09-14 00:22:39,884 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 200 486
+INFO 2023-09-14 00:22:40,546 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 200 486
+INFO 2023-09-14 00:23:01,880 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 200 486
+ERROR 2023-09-14 00:23:02,709 log 12516 15608 Internal Server Error: /heads_game/3
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\defaulttags.py", line 839, in do_for
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'for' statements should use the format 'for x in y': for {{ result }}  in {{ results }}
+ERROR 2023-09-14 00:23:02,712 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 500 172163
+ERROR 2023-09-14 00:23:03,926 log 12516 15608 Internal Server Error: /heads_game/3
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\defaulttags.py", line 839, in do_for
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'for' statements should use the format 'for x in y': for {{ result }}  in {{ results }}
+ERROR 2023-09-14 00:23:03,928 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 500 172163
+ERROR 2023-09-14 00:23:04,703 log 12516 15608 Internal Server Error: /heads_game/3
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\defaulttags.py", line 839, in do_for
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'for' statements should use the format 'for x in y': for {{ result }}  in {{ results }}
+ERROR 2023-09-14 00:23:04,705 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 500 172163
+ERROR 2023-09-14 00:23:12,295 log 12516 15608 Internal Server Error: /heads_game/3
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\defaulttags.py", line 839, in do_for
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'for' statements should use the format 'for x in y': for {{ result }}  in {{ results }}
+ERROR 2023-09-14 00:23:12,297 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 500 172163
+ERROR 2023-09-14 00:23:23,381 log 12516 15608 Internal Server Error: /heads_game/3
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\defaulttags.py", line 839, in do_for
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'for' statements should use the format 'for x in y': for result  in {{ results }}
+ERROR 2023-09-14 00:23:23,383 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 500 172071
+ERROR 2023-09-14 00:23:24,189 log 12516 15608 Internal Server Error: /heads_game/3
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\defaulttags.py", line 839, in do_for
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'for' statements should use the format 'for x in y': for result  in {{ results }}
+ERROR 2023-09-14 00:23:24,191 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 500 172071
+INFO 2023-09-14 00:23:33,272 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 200 486
+INFO 2023-09-14 00:23:34,378 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 200 486
+INFO 2023-09-14 00:23:35,518 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 200 486
+INFO 2023-09-14 00:23:39,398 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 200 486
+INFO 2023-09-14 00:23:40,266 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 200 486
+INFO 2023-09-14 00:23:42,231 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 200 486
+INFO 2023-09-14 00:23:43,273 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 200 486
+INFO 2023-09-14 00:23:44,190 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 200 486
+INFO 2023-09-14 00:23:48,676 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 200 486
+INFO 2023-09-14 00:23:49,291 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 200 483
+INFO 2023-09-14 00:23:50,033 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 200 483
+INFO 2023-09-14 00:23:50,600 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 200 483
+INFO 2023-09-14 00:23:51,023 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 200 483
+INFO 2023-09-14 00:23:51,419 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 200 483
+INFO 2023-09-14 00:23:51,838 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 200 483
+INFO 2023-09-14 00:23:52,244 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 200 483
+INFO 2023-09-14 00:23:52,963 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 200 483
+INFO 2023-09-14 00:23:53,732 basehttp 12516 15608 "GET /heads_game/3 HTTP/1.1" 200 483
+INFO 2023-09-14 00:23:56,701 basehttp 12516 15608 "GET /heads_game/5 HTTP/1.1" 200 535
+INFO 2023-09-14 00:23:58,454 basehttp 12516 15608 "GET /heads_game/5 HTTP/1.1" 200 535
+INFO 2023-09-14 00:23:58,913 basehttp 12516 15608 "GET /heads_game/5 HTTP/1.1" 200 535
+INFO 2023-09-14 00:23:59,302 basehttp 12516 15608 "GET /heads_game/5 HTTP/1.1" 200 535
+INFO 2023-09-14 00:24:18,593 basehttp 12516 15608 "GET / HTTP/1.1" 200 229
+WARNING 2023-09-14 00:24:24,839 log 12516 15608 Not Found: /das
+WARNING 2023-09-14 00:24:24,839 basehttp 12516 15608 "GET /das HTTP/1.1" 404 3485
+INFO 2023-09-14 00:24:43,573 autoreload 12516 12020 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar3_app\urls.py changed, reloading.
+INFO 2023-09-14 00:24:43,800 autoreload 18268 7036 Watching for file changes with StatReloader
+INFO 2023-09-14 00:24:51,647 basehttp 18268 26448 "GET /dice_game/5 HTTP/1.1" 200 489
+INFO 2023-09-14 00:24:53,547 basehttp 18268 26448 "GET /dice_game/5 HTTP/1.1" 200 489
+INFO 2023-09-14 00:24:53,896 basehttp 18268 26448 "GET /dice_game/5 HTTP/1.1" 200 489
+INFO 2023-09-14 00:24:54,219 basehttp 18268 26448 "GET /dice_game/5 HTTP/1.1" 200 489
+INFO 2023-09-14 00:24:54,483 basehttp 18268 26448 "GET /dice_game/5 HTTP/1.1" 200 489
+INFO 2023-09-14 00:24:54,714 basehttp 18268 26448 "GET /dice_game/5 HTTP/1.1" 200 489
+INFO 2023-09-14 00:24:54,927 basehttp 18268 26448 "GET /dice_game/5 HTTP/1.1" 200 489
+INFO 2023-09-14 23:59:32,020 autoreload 19864 19712 Watching for file changes with StatReloader
+INFO 2023-09-15 00:02:00,890 autoreload 19864 19712 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\urls.py changed, reloading.
+INFO 2023-09-15 00:02:01,131 autoreload 19992 21348 Watching for file changes with StatReloader
+INFO 2023-09-15 00:02:29,631 autoreload 19992 21348 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\urls.py changed, reloading.
+INFO 2023-09-15 00:02:29,865 autoreload 21672 13192 Watching for file changes with StatReloader
+INFO 2023-09-15 00:02:44,724 autoreload 11080 12212 Watching for file changes with StatReloader
+INFO 2023-09-15 00:02:56,012 autoreload 11080 12212 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\urls.py changed, reloading.
+INFO 2023-09-15 00:02:56,239 autoreload 8432 18748 Watching for file changes with StatReloader
+INFO 2023-09-15 00:02:57,775 basehttp 8432 9200 "GET / HTTP/1.1" 200 229
+WARNING 2023-09-15 00:02:57,907 log 8432 9200 Not Found: /favicon.ico
+WARNING 2023-09-15 00:02:57,907 basehttp 8432 9200 "GET /favicon.ico HTTP/1.1" 404 3614
+WARNING 2023-09-15 00:03:03,150 log 8432 20564 Not Found: /index
+WARNING 2023-09-15 00:03:03,151 basehttp 8432 20564 "GET /index HTTP/1.1" 404 3596
+INFO 2023-09-15 00:04:30,642 autoreload 8432 18748 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py changed, reloading.
+INFO 2023-09-15 00:04:30,875 autoreload 19168 10960 Watching for file changes with StatReloader
+INFO 2023-09-15 00:04:52,857 basehttp 19168 19388 "GET / HTTP/1.1" 200 229
+WARNING 2023-09-15 00:04:52,936 log 19168 19388 Not Found: /favicon.ico
+WARNING 2023-09-15 00:04:52,936 basehttp 19168 19388 "GET /favicon.ico HTTP/1.1" 404 3614
+WARNING 2023-09-15 00:05:01,739 log 19168 14304 Not Found: /index.html
+WARNING 2023-09-15 00:05:01,739 basehttp 19168 14304 "GET /index.html HTTP/1.1" 404 3611
+WARNING 2023-09-15 00:05:11,471 log 19168 14304 Not Found: /index/
+WARNING 2023-09-15 00:05:11,472 basehttp 19168 14304 "GET /index/ HTTP/1.1" 404 3666
+INFO 2023-09-15 00:06:07,329 autoreload 19168 10960 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\urls.py changed, reloading.
+INFO 2023-09-15 00:06:07,567 autoreload 14912 2672 Watching for file changes with StatReloader
+WARNING 2023-09-15 00:06:08,573 log 14912 1576 Not Found: /index/
+WARNING 2023-09-15 00:06:08,573 basehttp 14912 1576 "GET /index/ HTTP/1.1" 404 3666
+WARNING 2023-09-15 00:06:09,835 log 14912 1576 Not Found: /index/
+WARNING 2023-09-15 00:06:09,835 basehttp 14912 1576 "GET /index/ HTTP/1.1" 404 3666
+WARNING 2023-09-15 00:06:10,299 log 14912 1576 Not Found: /index/
+WARNING 2023-09-15 00:06:10,300 basehttp 14912 1576 "GET /index/ HTTP/1.1" 404 3666
+WARNING 2023-09-15 00:06:10,518 log 14912 1576 Not Found: /index/
+WARNING 2023-09-15 00:06:10,519 basehttp 14912 1576 "GET /index/ HTTP/1.1" 404 3666
+INFO 2023-09-15 00:07:13,286 autoreload 16460 14280 Watching for file changes with StatReloader
+INFO 2023-09-15 00:07:15,919 basehttp 16460 21476 "GET / HTTP/1.1" 200 229
+WARNING 2023-09-15 00:07:22,625 log 16460 21476 Not Found: /index
+WARNING 2023-09-15 00:07:22,625 basehttp 16460 21476 "GET /index HTTP/1.1" 404 3596
+INFO 2023-09-15 00:08:16,307 autoreload 16460 14280 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\urls.py changed, reloading.
+INFO 2023-09-15 00:08:16,533 autoreload 19852 352 Watching for file changes with StatReloader
+INFO 2023-09-15 00:08:19,718 basehttp 19852 20880 "GET /index HTTP/1.1" 301 0
+INFO 2023-09-15 00:08:19,722 basehttp 19852 20592 "GET /index/ HTTP/1.1" 200 10
+INFO 2023-09-15 00:11:12,952 autoreload 19852 352 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py changed, reloading.
+INFO 2023-09-15 00:11:13,178 autoreload 17188 18832 Watching for file changes with StatReloader
+INFO 2023-09-15 00:14:47,010 autoreload 17188 18832 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\urls.py changed, reloading.
+INFO 2023-09-15 00:14:47,230 autoreload 18324 14428 Watching for file changes with StatReloader
+INFO 2023-09-15 00:15:05,628 autoreload 18324 14428 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\urls.py changed, reloading.
+INFO 2023-09-15 00:15:05,874 autoreload 18040 13440 Watching for file changes with StatReloader
+INFO 2023-09-15 00:15:06,167 basehttp 18040 9964 "GET / HTTP/1.1" 200 229
+WARNING 2023-09-15 00:15:10,022 log 18040 9964 Not Found: /clients_get
+WARNING 2023-09-15 00:15:10,022 basehttp 18040 9964 "GET /clients_get HTTP/1.1" 404 3614
+INFO 2023-09-15 00:15:19,925 basehttp 18040 9964 "GET /index/clients_get HTTP/1.1" 301 0
+INFO 2023-09-15 00:15:19,927 views 18040 10112 Customers list has been requested.
+INFO 2023-09-15 00:15:19,928 basehttp 18040 10112 "GET /index/clients_get/ HTTP/1.1" 200 554
+INFO 2023-09-15 00:16:32,132 autoreload 18040 13440 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py changed, reloading.
+INFO 2023-09-15 00:16:32,371 autoreload 4168 19788 Watching for file changes with StatReloader
+INFO 2023-09-15 00:16:34,075 basehttp 4168 9860 "GET /index/goods_get HTTP/1.1" 301 0
+INFO 2023-09-15 00:16:34,077 views 4168 11436 Goods list has been requested.
+INFO 2023-09-15 00:16:34,078 basehttp 4168 11436 "GET /index/goods_get/ HTTP/1.1" 200 203
+INFO 2023-09-15 00:17:40,477 autoreload 4168 19788 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py changed, reloading.
+INFO 2023-09-15 00:17:40,719 autoreload 11000 19056 Watching for file changes with StatReloader
+INFO 2023-09-15 00:17:49,021 autoreload 11000 19056 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\urls.py changed, reloading.
+INFO 2023-09-15 00:17:49,249 autoreload 22028 6908 Watching for file changes with StatReloader
+INFO 2023-09-15 00:17:52,020 views 22028 3700 Goods list has been requested.
+INFO 2023-09-15 00:17:52,023 basehttp 22028 3700 "GET /index/orders_get/ HTTP/1.1" 200 990
+INFO 2023-09-15 00:18:17,844 autoreload 22028 6908 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py changed, reloading.
+INFO 2023-09-15 00:18:18,146 autoreload 15224 1944 Watching for file changes with StatReloader
+INFO 2023-09-15 00:21:36,838 autoreload 15224 1944 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py changed, reloading.
+INFO 2023-09-15 00:21:37,152 autoreload 12644 4540 Watching for file changes with StatReloader
+INFO 2023-09-15 22:09:17,709 autoreload 15240 8804 Watching for file changes with StatReloader
+INFO 2023-09-15 22:09:19,521 basehttp 15240 19264 "GET / HTTP/1.1" 200 229
+WARNING 2023-09-15 22:09:19,614 log 15240 19264 Not Found: /favicon.ico
+WARNING 2023-09-15 22:09:19,614 basehttp 15240 19264 "GET /favicon.ico HTTP/1.1" 404 3614
+WARNING 2023-09-15 22:09:24,990 log 15240 19264 Not Found: /7
+WARNING 2023-09-15 22:09:24,991 basehttp 15240 19264 "GET /7 HTTP/1.1" 404 3584
+WARNING 2023-09-15 22:09:32,952 log 15240 19264 Not Found: /ge
+WARNING 2023-09-15 22:09:32,953 basehttp 15240 19264 "GET /ge HTTP/1.1" 404 3587
+INFO 2023-09-15 22:09:46,703 basehttp 15240 19264 "GET /index/ HTTP/1.1" 200 10
+WARNING 2023-09-15 22:09:49,955 log 15240 19264 Not Found: /index/g
+WARNING 2023-09-15 22:09:49,955 basehttp 15240 19264 "GET /index/g HTTP/1.1" 404 4430
+ERROR 2023-09-15 22:10:12,660 log 15240 19264 Internal Server Error: /index/get_7_days_orders/1
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view hw2_app.views.get_7_days_orders didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-15 22:10:12,661 basehttp 15240 19264 "GET /index/get_7_days_orders/1 HTTP/1.1" 500 74505
+ERROR 2023-09-15 22:10:26,156 log 15240 19264 Internal Server Error: /index/get_7_days_orders/2
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view hw2_app.views.get_7_days_orders didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-15 22:10:26,156 basehttp 15240 19264 "GET /index/get_7_days_orders/2 HTTP/1.1" 500 74505
+ERROR 2023-09-15 22:10:28,738 log 15240 19264 Internal Server Error: /index/get_7_days_orders/3
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view hw2_app.views.get_7_days_orders didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-15 22:10:28,738 basehttp 15240 19264 "GET /index/get_7_days_orders/3 HTTP/1.1" 500 74505
+ERROR 2023-09-15 22:10:31,142 log 15240 19264 Internal Server Error: /index/get_7_days_orders/4
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view hw2_app.views.get_7_days_orders didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-15 22:10:31,143 basehttp 15240 19264 "GET /index/get_7_days_orders/4 HTTP/1.1" 500 74505
+ERROR 2023-09-15 22:12:34,725 log 15240 19264 Internal Server Error: /index/get_7_days_orders/5
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view hw2_app.views.get_7_days_orders didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-15 22:12:34,725 basehttp 15240 19264 "GET /index/get_7_days_orders/5 HTTP/1.1" 500 74505
+WARNING 2023-09-15 22:12:46,751 log 15240 19264 Not Found: /index/get_7_days_orders/
+WARNING 2023-09-15 22:12:46,752 basehttp 15240 19264 "GET /index/get_7_days_orders/ HTTP/1.1" 404 4481
+INFO 2023-09-15 22:13:48,360 autoreload 15240 8804 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py changed, reloading.
+INFO 2023-09-15 22:13:48,581 autoreload 14116 5576 Watching for file changes with StatReloader
+ERROR 2023-09-15 22:13:50,796 log 14116 13956 Internal Server Error: /index/get_7_days_orders/1
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view hw2_app.views.get_7_days_orders didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-15 22:13:50,797 basehttp 14116 13956 "GET /index/get_7_days_orders/1 HTTP/1.1" 500 74505
+ERROR 2023-09-15 22:14:48,568 log 14116 13956 Internal Server Error: /index/get_7_days_orders/2
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view hw2_app.views.get_7_days_orders didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-15 22:14:48,569 basehttp 14116 13956 "GET /index/get_7_days_orders/2 HTTP/1.1" 500 74505
+ERROR 2023-09-15 22:14:50,745 log 14116 13956 Internal Server Error: /index/get_7_days_orders/3
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view hw2_app.views.get_7_days_orders didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-15 22:14:50,746 basehttp 14116 13956 "GET /index/get_7_days_orders/3 HTTP/1.1" 500 74505
+ERROR 2023-09-15 22:14:52,753 log 14116 13956 Internal Server Error: /index/get_7_days_orders/4
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view hw2_app.views.get_7_days_orders didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-15 22:14:52,753 basehttp 14116 13956 "GET /index/get_7_days_orders/4 HTTP/1.1" 500 74505
+ERROR 2023-09-15 22:14:55,578 log 14116 13956 Internal Server Error: /index/get_7_days_orders/5
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view hw2_app.views.get_7_days_orders didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-15 22:14:55,579 basehttp 14116 13956 "GET /index/get_7_days_orders/5 HTTP/1.1" 500 74505
+ERROR 2023-09-15 22:14:58,084 log 14116 13956 Internal Server Error: /index/get_7_days_orders/6
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view hw2_app.views.get_7_days_orders didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-15 22:14:58,085 basehttp 14116 13956 "GET /index/get_7_days_orders/6 HTTP/1.1" 500 74505
+ERROR 2023-09-15 22:15:00,010 log 14116 13956 Internal Server Error: /index/get_7_days_orders/7
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view hw2_app.views.get_7_days_orders didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-15 22:15:00,011 basehttp 14116 13956 "GET /index/get_7_days_orders/7 HTTP/1.1" 500 74505
+ERROR 2023-09-15 22:15:01,953 log 14116 13956 Internal Server Error: /index/get_7_days_orders/8
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view hw2_app.views.get_7_days_orders didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-15 22:15:01,954 basehttp 14116 13956 "GET /index/get_7_days_orders/8 HTTP/1.1" 500 74505
+INFO 2023-09-15 22:16:27,820 autoreload 14116 5576 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py changed, reloading.
+INFO 2023-09-15 22:16:28,047 autoreload 4664 14868 Watching for file changes with StatReloader
+ERROR 2023-09-15 22:16:30,123 log 4664 6732 Internal Server Error: /index/get_7_days_orders/1
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py", line 43, in get_7_days_orders
+    return render(request, 'hw2/get_7_days_orders.html', {'client': None, 'result': None})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: hw2/get_7_days_orders.html
+ERROR 2023-09-15 22:16:30,124 basehttp 4664 6732 "GET /index/get_7_days_orders/1 HTTP/1.1" 500 89917
+INFO 2023-09-15 22:17:43,219 autoreload 4664 14868 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\urls.py changed, reloading.
+INFO 2023-09-15 22:17:43,443 autoreload 18424 7664 Watching for file changes with StatReloader
+INFO 2023-09-15 22:19:27,771 autoreload 18424 7664 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\urls.py changed, reloading.
+INFO 2023-09-15 22:19:27,994 autoreload 4644 2176 Watching for file changes with StatReloader
+ERROR 2023-09-15 22:19:31,559 log 4644 16088 Internal Server Error: /index/get_7_days_orders/1
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py", line 43, in get_7_days_orders
+    return render(request, 'hw2/get_7_days_orders.html', {'client': None, 'result': None})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: hw2/get_7_days_orders.html
+ERROR 2023-09-15 22:19:31,560 basehttp 4644 16088 "GET /index/get_7_days_orders/1 HTTP/1.1" 500 90054
+ERROR 2023-09-15 22:19:34,654 log 4644 16088 Internal Server Error: /index/get_7_days_orders/2
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py", line 43, in get_7_days_orders
+    return render(request, 'hw2/get_7_days_orders.html', {'client': None, 'result': None})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: hw2/get_7_days_orders.html
+ERROR 2023-09-15 22:19:34,655 basehttp 4644 16088 "GET /index/get_7_days_orders/2 HTTP/1.1" 500 89917
+INFO 2023-09-15 22:23:14,082 autoreload 4644 2176 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\urls.py changed, reloading.
+INFO 2023-09-15 22:23:14,302 autoreload 7516 13700 Watching for file changes with StatReloader
+INFO 2023-09-15 22:23:17,940 basehttp 7516 18580 "GET /index/get_7_days_orders/2 HTTP/1.1" 200 442
+INFO 2023-09-15 22:23:21,275 basehttp 7516 18580 "GET /index/get_7_days_orders/1 HTTP/1.1" 200 442
+INFO 2023-09-15 22:23:25,785 basehttp 7516 18580 "GET /index/get_7_days_orders/3 HTTP/1.1" 200 442
+INFO 2023-09-15 22:23:28,870 basehttp 7516 18580 "GET /index/get_7_days_orders/4 HTTP/1.1" 200 442
+INFO 2023-09-15 22:23:31,245 basehttp 7516 18580 "GET /index/get_7_days_orders/5 HTTP/1.1" 200 442
+INFO 2023-09-15 22:24:47,562 basehttp 7516 18580 "GET /index/get_7_days_orders/1 HTTP/1.1" 200 429
+INFO 2023-09-15 22:24:52,204 basehttp 7516 18580 "GET /index/get_7_days_orders/2 HTTP/1.1" 200 429
+INFO 2023-09-15 22:24:54,782 basehttp 7516 18580 "GET /index/get_7_days_orders/3 HTTP/1.1" 200 429
+INFO 2023-09-15 22:24:58,273 basehttp 7516 18580 "GET /index/get_7_days_orders/4 HTTP/1.1" 200 429
+INFO 2023-09-15 22:25:00,589 basehttp 7516 18580 "GET /index/get_7_days_orders/5 HTTP/1.1" 200 429
+INFO 2023-09-15 22:25:03,294 basehttp 7516 18580 "GET /index/get_7_days_orders/6 HTTP/1.1" 200 429
+INFO 2023-09-15 22:25:05,729 basehttp 7516 18580 "GET /index/get_7_days_orders/7 HTTP/1.1" 200 429
+INFO 2023-09-15 22:25:07,912 basehttp 7516 18580 "GET /index/get_7_days_orders/8 HTTP/1.1" 200 429
+INFO 2023-09-15 22:27:19,190 basehttp 7516 18580 "GET /index/get_7_days_orders/1 HTTP/1.1" 200 421
+INFO 2023-09-15 22:27:22,137 basehttp 7516 18580 "GET /index/get_7_days_orders/2 HTTP/1.1" 200 421
+INFO 2023-09-15 22:31:06,266 autoreload 7516 13700 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py changed, reloading.
+INFO 2023-09-15 22:31:06,501 autoreload 19336 6876 Watching for file changes with StatReloader
+INFO 2023-09-15 22:31:07,890 basehttp 19336 176 "GET /index/get_7_days_orders/2 HTTP/1.1" 200 421
+INFO 2023-09-15 22:31:10,204 basehttp 19336 176 "GET /index/get_7_days_orders/1 HTTP/1.1" 200 421
+INFO 2023-09-15 22:31:12,777 basehttp 19336 176 "GET /index/get_7_days_orders/3 HTTP/1.1" 200 421
+INFO 2023-09-15 22:31:15,586 basehttp 19336 176 "GET /index/get_7_days_orders/4 HTTP/1.1" 200 421
+INFO 2023-09-15 22:31:17,788 basehttp 19336 176 "GET /index/get_7_days_orders/5 HTTP/1.1" 200 421
+INFO 2023-09-15 22:37:13,737 autoreload 5644 10128 Watching for file changes with StatReloader
+INFO 2023-09-15 22:37:14,831 basehttp 5644 4364 "GET /index/get_7_days_orders/1/365 HTTP/1.1" 200 2125
+INFO 2023-09-15 22:37:56,199 basehttp 5644 4364 "GET /index/get_7_days_orders/1/365 HTTP/1.1" 200 4787
+INFO 2023-09-15 22:38:00,313 basehttp 5644 4364 "GET /index/get_7_days_orders/1/30 HTTP/1.1" 200 421
+INFO 2023-09-15 22:38:17,651 basehttp 5644 4364 "GET /index/get_7_days_orders/1/365 HTTP/1.1" 200 4787
+INFO 2023-09-15 22:38:44,076 basehttp 5644 4364 "GET /index/get_7_days_orders/1/365 HTTP/1.1" 200 4787
+INFO 2023-09-15 22:38:49,847 basehttp 5644 4364 "GET /index/get_7_days_orders/2/365 HTTP/1.1" 200 3329
+INFO 2023-09-15 22:38:54,005 basehttp 5644 4364 "GET /index/get_7_days_orders/3/365 HTTP/1.1" 200 421
+INFO 2023-09-15 22:38:58,998 basehttp 5644 4364 "GET /index/get_7_days_orders/4/365 HTTP/1.1" 200 3383
+INFO 2023-09-15 22:39:10,945 basehttp 5644 4364 "GET /index/get_7_days_orders/4/365 HTTP/1.1" 200 3219
+INFO 2023-09-15 22:39:41,859 basehttp 5644 4364 "GET /index/get_7_days_orders/4/365 HTTP/1.1" 200 3219
+INFO 2023-09-15 22:39:42,876 basehttp 5644 4364 "GET /index/get_7_days_orders/4/365 HTTP/1.1" 200 3219
+INFO 2023-09-15 22:39:45,857 basehttp 5644 4364 "GET /index/get_7_days_orders/4/365 HTTP/1.1" 200 3219
+INFO 2023-09-15 22:40:33,118 basehttp 5644 4364 "GET /index/get_7_days_orders/4/365 HTTP/1.1" 200 3219
+INFO 2023-09-15 22:40:36,644 basehttp 5644 4364 "GET /index/get_7_days_orders/4/365 HTTP/1.1" 200 3219
+INFO 2023-09-15 22:40:41,181 basehttp 5644 4364 "GET /index/get_7_days_orders/4/365 HTTP/1.1" 200 3219
+INFO 2023-09-15 22:40:50,440 basehttp 5644 4364 "GET /index/get_7_days_orders/4/365 HTTP/1.1" 200 3383
+INFO 2023-09-15 22:41:42,187 autoreload 5644 10128 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py changed, reloading.
+INFO 2023-09-15 22:41:42,408 autoreload 6724 2920 Watching for file changes with StatReloader
+ERROR 2023-09-15 22:41:43,642 log 6724 11268 Internal Server Error: /index/get_7_days_orders/4/365
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py", line 41, in get_7_days_orders
+    return render(request, 'hw2_app/get_7_days_orders.html', {'client': client, 'result': products})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' r o d u c t _ n a m e' from 'order.p r o d u c t _ n a m e'
+ERROR 2023-09-15 22:41:43,645 basehttp 6724 11268 "GET /index/get_7_days_orders/4/365 HTTP/1.1" 500 196357
+INFO 2023-09-15 22:41:56,056 basehttp 6724 11268 "GET /index/get_7_days_orders/4/365 HTTP/1.1" 200 648
+INFO 2023-09-15 22:42:07,191 basehttp 6724 11268 "GET /index/get_7_days_orders/4/365 HTTP/1.1" 200 524
+INFO 2023-09-15 22:43:00,698 autoreload 6724 2920 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py changed, reloading.
+INFO 2023-09-15 22:43:00,930 autoreload 16088 14908 Watching for file changes with StatReloader
+INFO 2023-09-15 22:43:01,727 basehttp 16088 16580 "GET /index/get_7_days_orders/4/365 HTTP/1.1" 200 524
+INFO 2023-09-15 22:43:31,975 basehttp 16088 16580 "GET /index/get_7_days_orders/4/365 HTTP/1.1" 200 560
+INFO 2023-09-15 22:44:10,962 autoreload 16088 14908 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py changed, reloading.
+INFO 2023-09-15 22:44:11,194 autoreload 2336 19352 Watching for file changes with StatReloader
+INFO 2023-09-15 22:44:22,174 basehttp 2336 8940 "GET /index/get_7_days_orders/4/365 HTTP/1.1" 200 684
+INFO 2023-09-15 22:46:13,409 basehttp 2336 8940 "GET /index/get_7_days_orders/4/365 HTTP/1.1" 200 732
+INFO 2023-09-15 22:46:30,272 basehttp 2336 8940 "GET /index/get_7_days_orders/4/365 HTTP/1.1" 200 656
+INFO 2023-09-15 22:46:41,210 basehttp 2336 8940 "GET /index/get_7_days_orders/1/365 HTTP/1.1" 200 764
+INFO 2023-09-15 22:46:46,749 basehttp 2336 8940 "GET /index/get_7_days_orders/1/30 HTTP/1.1" 200 421
+INFO 2023-09-15 22:46:53,623 basehttp 2336 8940 "GET /index/get_7_days_orders/5/30 HTTP/1.1" 200 421
+INFO 2023-09-15 22:47:27,950 autoreload 2336 19352 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py changed, reloading.
+INFO 2023-09-15 22:47:28,169 autoreload 14228 11352 Watching for file changes with StatReloader
+INFO 2023-09-15 22:48:06,357 basehttp 14228 16704 "GET / HTTP/1.1" 200 229
+WARNING 2023-09-15 22:48:06,448 log 14228 16704 Not Found: /favicon.ico
+WARNING 2023-09-15 22:48:06,449 basehttp 14228 16704 "GET /favicon.ico HTTP/1.1" 404 3614
+WARNING 2023-09-15 22:48:10,122 log 14228 17604 Not Found: /index/get_7_days_orders/1
+WARNING 2023-09-15 22:48:10,123 basehttp 14228 17604 "GET /index/get_7_days_orders/1 HTTP/1.1" 404 4511
+WARNING 2023-09-15 22:48:15,628 log 14228 17604 Not Found: /index/get_7_days_orders/
+WARNING 2023-09-15 22:48:15,628 basehttp 14228 17604 "GET /index/get_7_days_orders/ HTTP/1.1" 404 4508
+INFO 2023-09-15 22:48:22,245 basehttp 14228 17604 "GET /index/get_7_days_orders/1/365 HTTP/1.1" 200 789
+INFO 2023-09-15 22:48:58,627 autoreload 14228 11352 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py changed, reloading.
+INFO 2023-09-15 22:48:58,851 autoreload 8008 19344 Watching for file changes with StatReloader
+INFO 2023-09-15 22:48:59,123 basehttp 8008 3144 "GET /index/get_7_days_orders/1/365 HTTP/1.1" 200 766
+INFO 2023-09-15 22:49:03,373 basehttp 8008 3144 "GET /index/get_7_days_orders/1/7 HTTP/1.1" 200 420
+INFO 2023-09-15 22:49:11,769 basehttp 8008 3144 "GET /index/get_7_days_orders/1/10 HTTP/1.1" 200 420
+INFO 2023-09-15 22:49:15,281 basehttp 8008 3144 "GET /index/get_7_days_orders/1/255 HTTP/1.1" 200 601
+INFO 2023-09-15 22:49:57,746 autoreload 8008 19344 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py changed, reloading.
+INFO 2023-09-15 22:49:57,994 autoreload 15116 1652 Watching for file changes with StatReloader
+INFO 2023-09-15 22:49:58,179 basehttp 15116 19156 "GET /index/get_7_days_orders/1/255 HTTP/1.1" 200 601
+INFO 2023-09-15 22:50:00,440 basehttp 15116 19156 "GET /index/get_7_days_orders/1/255 HTTP/1.1" 200 601
+INFO 2023-09-15 22:50:03,202 basehttp 15116 19156 "GET /index/get_7_days_orders/1/10 HTTP/1.1" 200 958
+INFO 2023-09-15 22:50:40,694 autoreload 15116 1652 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py changed, reloading.
+INFO 2023-09-15 22:50:40,920 autoreload 17492 18560 Watching for file changes with StatReloader
+INFO 2023-09-15 22:50:41,384 basehttp 17492 8144 "GET /index/get_7_days_orders/1/10 HTTP/1.1" 200 960
+INFO 2023-09-15 22:51:36,786 autoreload 17492 18560 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py changed, reloading.
+INFO 2023-09-15 22:51:37,004 autoreload 13692 16788 Watching for file changes with StatReloader
+INFO 2023-09-15 22:51:37,613 basehttp 13692 18420 "GET /index/get_7_days_orders/1/10 HTTP/1.1" 200 960
+INFO 2023-09-15 22:51:38,309 basehttp 13692 18420 "GET /index/get_7_days_orders/1/10 HTTP/1.1" 200 960
+WARNING 2023-09-15 22:51:55,900 log 13692 18420 Not Found: /index/get_7_days_or
+WARNING 2023-09-15 22:51:55,900 basehttp 13692 18420 "GET /index/get_7_days_or HTTP/1.1" 404 4493
+INFO 2023-09-15 22:52:01,076 autoreload 7980 5100 Watching for file changes with StatReloader
+INFO 2023-09-15 22:52:02,864 basehttp 7980 19220 "GET / HTTP/1.1" 200 229
+WARNING 2023-09-15 22:52:02,972 log 7980 19220 Not Found: /favicon.ico
+WARNING 2023-09-15 22:52:02,972 basehttp 7980 19220 "GET /favicon.ico HTTP/1.1" 404 3614
+WARNING 2023-09-15 22:52:07,167 log 7980 12528 Not Found: /index/get_7_days_orders/1
+WARNING 2023-09-15 22:52:07,167 basehttp 7980 12528 "GET /index/get_7_days_orders/1 HTTP/1.1" 404 4511
+INFO 2023-09-15 22:52:57,015 autoreload 7980 5100 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\urls.py changed, reloading.
+INFO 2023-09-15 22:52:59,923 autoreload 19312 8056 Watching for file changes with StatReloader
+INFO 2023-09-15 22:53:01,040 basehttp 19312 4080 "GET / HTTP/1.1" 200 229
+WARNING 2023-09-15 22:53:01,129 log 19312 4080 Not Found: /favicon.ico
+WARNING 2023-09-15 22:53:01,129 basehttp 19312 4080 "GET /favicon.ico HTTP/1.1" 404 3614
+INFO 2023-09-15 22:53:15,812 basehttp 19312 15280 "GET /index/get_orders_by_period/1/365 HTTP/1.1" 200 766

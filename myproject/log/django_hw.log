@@ -207,3 +207,5 @@ INFO 2023-09-11 22:17:20,840 basehttp 23216 24416 "GET /les3/post/4 HTTP/1.1" 20
 INFO 2023-09-11 22:17:26,904 basehttp 23216 24416 "GET /les3/post/7 HTTP/1.1" 200 916
 INFO 2023-09-11 22:17:28,995 basehttp 23216 24416 "GET /les3/post/6 HTTP/1.1" 200 951
 INFO 2023-09-11 22:17:32,057 basehttp 23216 24416 "GET /les3/post/5 HTTP/1.1" 200 904
+INFO 2023-09-11 22:18:41,672 autoreload 23216 15072 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp3\migrations\0001_initial.py changed, reloading.
+INFO 2023-09-11 22:18:41,940 autoreload 18040 3896 Watching for file changes with StatReloader
