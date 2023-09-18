@@ -209,3 +209,300 @@ INFO 2023-09-11 22:17:28,995 basehttp 23216 24416 "GET /les3/post/6 HTTP/1.1" 20
 INFO 2023-09-11 22:17:32,057 basehttp 23216 24416 "GET /les3/post/5 HTTP/1.1" 200 904
 INFO 2023-09-11 22:18:41,672 autoreload 23216 15072 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp3\migrations\0001_initial.py changed, reloading.
 INFO 2023-09-11 22:18:41,940 autoreload 18040 3896 Watching for file changes with StatReloader
+INFO 2023-09-17 21:58:52,918 autoreload 11020 4036 Watching for file changes with StatReloader
+INFO 2023-09-17 21:58:54,656 basehttp 11020 1888 "GET / HTTP/1.1" 200 497
+WARNING 2023-09-17 21:58:54,747 log 11020 1888 Not Found: /favicon.ico
+WARNING 2023-09-17 21:58:54,747 basehttp 11020 1888 "GET /favicon.ico HTTP/1.1" 404 2423
+WARNING 2023-09-17 21:59:05,397 log 11020 1888 Not Found: /les3/user_form
+WARNING 2023-09-17 21:59:05,397 basehttp 11020 1888 "GET /les3/user_form HTTP/1.1" 404 4565
+WARNING 2023-09-17 21:59:16,653 log 11020 1888 Not Found: /les4/
+WARNING 2023-09-17 21:59:16,653 basehttp 11020 1888 "GET /les4/ HTTP/1.1" 404 2479
+INFO 2023-09-17 21:59:25,457 basehttp 11020 1888 "GET /les4/user/add HTTP/1.1" 301 0
+ERROR 2023-09-17 21:59:25,487 log 11020 2820 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-17 21:59:25,488 basehttp 11020 2820 "GET /les4/user/add/ HTTP/1.1" 500 74058
+ERROR 2023-09-17 21:59:47,364 log 11020 2820 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-17 21:59:47,365 basehttp 11020 2820 "GET /les4/user/add/ HTTP/1.1" 500 74195
+INFO 2023-09-17 22:04:10,111 autoreload 11020 4036 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp4\views.py changed, reloading.
+INFO 2023-09-17 22:04:10,339 autoreload 18736 7468 Watching for file changes with StatReloader
+ERROR 2023-09-17 22:04:10,559 log 18736 17996 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-17 22:04:10,559 basehttp 18736 17996 "GET /les4/user/add/ HTTP/1.1" 500 74195
+ERROR 2023-09-17 22:04:11,206 log 18736 17996 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-17 22:04:11,207 basehttp 18736 17996 "GET /les4/user/add/ HTTP/1.1" 500 74195
+INFO 2023-09-17 22:05:18,639 autoreload 5568 1256 Watching for file changes with StatReloader
+WARNING 2023-09-17 22:05:25,692 log 5568 18280 Not Found: /les4/user
+WARNING 2023-09-17 22:05:25,692 basehttp 5568 18280 "GET /les4/user HTTP/1.1" 404 2491
+ERROR 2023-09-17 22:05:34,730 log 5568 18280 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-17 22:05:34,731 basehttp 5568 18280 "GET /les4/user/add/ HTTP/1.1" 500 74058
+INFO 2023-09-17 22:07:18,408 autoreload 5568 1256 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-17 22:07:18,636 autoreload 17212 14216 Watching for file changes with StatReloader
+ERROR 2023-09-17 22:07:21,371 log 17212 16192 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-17 22:07:21,372 basehttp 17212 16192 "GET /les4/user/add/ HTTP/1.1" 500 74195
+WARNING 2023-09-17 22:07:55,462 log 17212 16192 Not Found: /les4/user
+WARNING 2023-09-17 22:07:55,463 basehttp 17212 16192 "GET /les4/user HTTP/1.1" 404 2491
+ERROR 2023-09-17 22:08:05,447 log 17212 16192 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-17 22:08:05,447 basehttp 17212 16192 "GET /les4/user/add/ HTTP/1.1" 500 74058
+ERROR 2023-09-17 22:09:06,111 log 17212 16192 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-17 22:09:06,112 basehttp 17212 16192 "GET /les4/user/add/ HTTP/1.1" 500 74195
+ERROR 2023-09-17 22:09:07,320 log 17212 16192 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-17 22:09:07,321 basehttp 17212 16192 "GET /les4/user/add/ HTTP/1.1" 500 74195
+WARNING 2023-09-17 22:09:10,333 log 17212 16192 Not Found: /les4/
+WARNING 2023-09-17 22:09:10,334 basehttp 17212 16192 "GET /les4/ HTTP/1.1" 404 2479
+ERROR 2023-09-17 22:09:16,314 log 17212 16192 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-17 22:09:16,315 basehttp 17212 16192 "GET /les4/user/add/ HTTP/1.1" 500 74058
+INFO 2023-09-17 22:10:16,865 autoreload 19064 12400 Watching for file changes with StatReloader
+ERROR 2023-09-17 22:10:19,836 log 19064 11932 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-17 22:10:19,837 basehttp 19064 11932 "GET /les4/user/add/ HTTP/1.1" 500 74195
+ERROR 2023-09-17 22:10:21,499 log 19064 11932 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-17 22:10:21,499 basehttp 19064 11932 "GET /les4/user/add/ HTTP/1.1" 500 74195
+ERROR 2023-09-17 22:10:21,794 log 19064 11932 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-17 22:10:21,795 basehttp 19064 11932 "GET /les4/user/add/ HTTP/1.1" 500 74195
+ERROR 2023-09-17 22:10:22,170 log 19064 11932 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-17 22:10:22,171 basehttp 19064 11932 "GET /les4/user/add/ HTTP/1.1" 500 74195
+ERROR 2023-09-17 22:10:22,538 log 19064 11932 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-17 22:10:22,539 basehttp 19064 11932 "GET /les4/user/add/ HTTP/1.1" 500 74195
+ERROR 2023-09-17 22:10:26,763 log 19064 11932 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-17 22:10:26,764 basehttp 19064 11932 "GET /les4/user/add/ HTTP/1.1" 500 74058
+INFO 2023-09-17 22:10:36,196 autoreload 4248 11796 Watching for file changes with StatReloader
+INFO 2023-09-17 22:10:38,060 basehttp 4248 19384 "GET / HTTP/1.1" 200 497
+INFO 2023-09-17 22:10:45,610 basehttp 4248 19384 "GET /les3 HTTP/1.1" 301 0
+INFO 2023-09-17 22:10:45,615 basehttp 4248 17428 "GET /les3/ HTTP/1.1" 200 375
+WARNING 2023-09-17 22:10:49,442 log 4248 17428 Not Found: /les3/d
+WARNING 2023-09-17 22:10:49,442 basehttp 4248 17428 "GET /les3/d HTTP/1.1" 404 4541
+INFO 2023-09-17 22:10:54,852 basehttp 4248 17428 "GET /les3/index HTTP/1.1" 301 0
+INFO 2023-09-17 22:10:54,854 basehttp 4248 12440 "GET /les3/index/ HTTP/1.1" 200 497
+WARNING 2023-09-17 22:11:01,260 log 4248 12440 Not Found: /les4/
+WARNING 2023-09-17 22:11:01,260 basehttp 4248 12440 "GET /les4/ HTTP/1.1" 404 2479
+ERROR 2023-09-17 22:11:07,397 log 4248 12440 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-17 22:11:07,398 basehttp 4248 12440 "GET /les4/user/add/ HTTP/1.1" 500 74058
+INFO 2023-09-17 22:13:33,528 autoreload 12456 17672 Watching for file changes with StatReloader
+INFO 2023-09-17 22:13:35,104 basehttp 12456 2312 "GET / HTTP/1.1" 200 497
+ERROR 2023-09-17 22:13:45,434 log 12456 2312 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-17 22:13:45,435 basehttp 12456 2312 "GET /les4/user/add/ HTTP/1.1" 500 74058
+INFO 2023-09-17 22:14:02,961 autoreload 3788 15736 Watching for file changes with StatReloader
+INFO 2023-09-17 22:23:27,821 autoreload 3788 15736 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp4\urls.py changed, reloading.
+INFO 2023-09-17 22:23:28,053 autoreload 19308 4536 Watching for file changes with StatReloader
+INFO 2023-09-17 22:23:49,457 autoreload 19308 4536 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp4\urls.py changed, reloading.
+INFO 2023-09-17 22:23:49,702 autoreload 14836 16036 Watching for file changes with StatReloader
+INFO 2023-09-17 23:44:29,032 autoreload 13948 19244 Watching for file changes with StatReloader
+INFO 2023-09-17 23:44:30,232 basehttp 13948 19044 "GET / HTTP/1.1" 200 497
+WARNING 2023-09-17 23:44:35,796 log 13948 19044 Not Found: /les4
+WARNING 2023-09-17 23:44:35,797 basehttp 13948 19044 "GET /les4 HTTP/1.1" 404 2402
+WARNING 2023-09-17 23:45:11,624 log 13948 19044 Not Found: /les4/
+WARNING 2023-09-17 23:45:11,625 basehttp 13948 19044 "GET /les4/ HTTP/1.1" 404 2479
+ERROR 2023-09-17 23:45:18,332 log 13948 19044 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-17 23:45:18,332 basehttp 13948 19044 "GET /les4/user/add/ HTTP/1.1" 500 74058
+INFO 2023-09-17 23:49:28,056 autoreload 13948 19244 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp4\views.py changed, reloading.
+INFO 2023-09-17 23:49:28,288 autoreload 4184 11320 Watching for file changes with StatReloader
+ERROR 2023-09-17 23:49:33,069 log 4184 18336 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-17 23:49:33,070 basehttp 4184 18336 "GET /les4/user/add/ HTTP/1.1" 500 74195
+INFO 2023-09-17 23:50:53,568 autoreload 4184 11320 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp4\views.py changed, reloading.
+INFO 2023-09-17 23:50:53,785 autoreload 11700 14912 Watching for file changes with StatReloader
+INFO 2023-09-17 23:50:54,803 basehttp 11700 12428 "GET /les4/user/add/ HTTP/1.1" 200 947
+INFO 2023-09-18 00:07:03,284 basehttp 11700 14040 "GET /les4/user/add/ HTTP/1.1" 200 1165
+INFO 2023-09-18 00:07:59,785 basehttp 11700 14040 "GET /les4/user/add/ HTTP/1.1" 200 1165
+INFO 2023-09-18 00:08:50,733 basehttp 11700 14040 "GET /les4/user/add/ HTTP/1.1" 200 1165
+INFO 2023-09-18 00:09:53,864 basehttp 11700 14040 "POST /les4/user/add/ HTTP/1.1" 200 1212
+INFO 2023-09-18 22:32:45,135 autoreload 2428 13876 Watching for file changes with StatReloader
+INFO 2023-09-18 22:32:46,760 basehttp 2428 16152 "GET / HTTP/1.1" 200 497
+WARNING 2023-09-18 22:32:46,854 log 2428 16152 Not Found: /favicon.ico
+WARNING 2023-09-18 22:32:46,854 basehttp 2428 16152 "GET /favicon.ico HTTP/1.1" 404 2423
+INFO 2023-09-18 22:32:54,925 basehttp 2428 16152 "GET /les4/user/add/ HTTP/1.1" 200 1165
+INFO 2023-09-18 23:03:55,762 autoreload 2428 13876 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-18 23:03:56,166 autoreload 16756 14808 Watching for file changes with StatReloader
+INFO 2023-09-18 23:10:36,111 autoreload 16756 14808 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-18 23:10:36,336 autoreload 13868 18980 Watching for file changes with StatReloader
+INFO 2023-09-18 23:16:21,974 autoreload 13868 18980 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp4\views.py changed, reloading.
+INFO 2023-09-18 23:16:22,196 autoreload 13384 2864 Watching for file changes with StatReloader
+INFO 2023-09-18 23:30:46,877 autoreload 10084 15460 Watching for file changes with StatReloader
+INFO 2023-09-18 23:30:47,995 basehttp 10084 8716 "GET / HTTP/1.1" 200 497
+INFO 2023-09-18 23:30:58,495 basehttp 10084 8716 "GET /les4/forms HTTP/1.1" 301 0
+INFO 2023-09-18 23:30:58,516 basehttp 10084 16760 "GET /les4/forms/ HTTP/1.1" 200 1708
+INFO 2023-09-18 23:32:00,330 basehttp 10084 16760 "POST /les4/forms/ HTTP/1.1" 200 1785
+INFO 2023-09-18 23:43:37,646 autoreload 10084 15460 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-18 23:43:37,882 autoreload 176 18616 Watching for file changes with StatReloader
+INFO 2023-09-18 23:48:52,771 autoreload 176 18616 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp4\views.py changed, reloading.
+INFO 2023-09-18 23:48:53,007 autoreload 20432 2088 Watching for file changes with StatReloader
+INFO 2023-09-18 23:49:37,700 autoreload 20432 2088 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp4\views.py changed, reloading.
+INFO 2023-09-18 23:49:37,931 autoreload 3860 18452 Watching for file changes with StatReloader
+INFO 2023-09-18 23:50:30,263 basehttp 3860 18160 "POST /les4/forms/ HTTP/1.1" 200 2464
+INFO 2023-09-18 23:51:11,204 basehttp 3860 18160 "POST /les4/forms/ HTTP/1.1" 200 2445

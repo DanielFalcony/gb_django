@@ -2687,3 +2687,5 @@ INFO 2023-09-15 22:53:01,040 basehttp 19312 4080 "GET / HTTP/1.1" 200 229
 WARNING 2023-09-15 22:53:01,129 log 19312 4080 Not Found: /favicon.ico
 WARNING 2023-09-15 22:53:01,129 basehttp 19312 4080 "GET /favicon.ico HTTP/1.1" 404 3614
 INFO 2023-09-15 22:53:15,812 basehttp 19312 15280 "GET /index/get_orders_by_period/1/365 HTTP/1.1" 200 766
+INFO 2023-09-15 22:56:24,138 autoreload 19312 8056 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\migrations\0003_alter_client_reg_date_alter_order_order_date.py changed, reloading.
+INFO 2023-09-15 22:56:24,378 autoreload 1848 14732 Watching for file changes with StatReloader

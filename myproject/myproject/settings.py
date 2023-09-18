@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myapp3',
+    'myapp4',
 ]
 
 MIDDLEWARE = [
@@ -142,6 +143,12 @@ LOGGING = {
             'encoding': 'utf-8',
             'formatter': 'verbose',
         },
+        'log_myapp4': {
+            'class': 'logging.FileHandler',
+            'filename': './log/django_myapp4.log',  # 'filename': '.log/django.log'
+            'encoding': 'utf-8',
+            'formatter': 'verbose',
+        },
     },
     'loggers': {
         'django': {
@@ -150,6 +157,11 @@ LOGGING = {
         },
         'myapp3': {
             'handlers': ['console', 'file'],  # 'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'myapp4': {
+            'handlers': ['console', 'log_myapp4'],  # 'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,
         },
