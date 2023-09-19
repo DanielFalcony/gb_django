@@ -2689,3 +2689,282 @@ WARNING 2023-09-15 22:53:01,129 basehttp 19312 4080 "GET /favicon.ico HTTP/1.1" 
 INFO 2023-09-15 22:53:15,812 basehttp 19312 15280 "GET /index/get_orders_by_period/1/365 HTTP/1.1" 200 766
 INFO 2023-09-15 22:56:24,138 autoreload 19312 8056 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\migrations\0003_alter_client_reg_date_alter_order_order_date.py changed, reloading.
 INFO 2023-09-15 22:56:24,378 autoreload 1848 14732 Watching for file changes with StatReloader
+INFO 2023-09-19 23:27:16,059 autoreload 21156 2952 Watching for file changes with StatReloader
+INFO 2023-09-19 23:33:55,191 autoreload 5892 8240 Watching for file changes with StatReloader
+INFO 2023-09-19 23:33:56,453 basehttp 5892 19748 "GET / HTTP/1.1" 200 229
+WARNING 2023-09-19 23:33:56,551 log 5892 19748 Not Found: /favicon.ico
+WARNING 2023-09-19 23:33:56,552 basehttp 5892 19748 "GET /favicon.ico HTTP/1.1" 404 3614
+WARNING 2023-09-19 23:34:03,918 log 5892 19748 Not Found: /hw_2
+WARNING 2023-09-19 23:34:03,918 basehttp 5892 19748 "GET /hw_2 HTTP/1.1" 404 3593
+INFO 2023-09-19 23:34:14,713 basehttp 5892 19748 "GET /index HTTP/1.1" 301 0
+INFO 2023-09-19 23:34:14,715 basehttp 5892 13852 "GET /index/ HTTP/1.1" 200 10
+WARNING 2023-09-19 23:34:17,764 log 5892 13852 Not Found: /index/d
+WARNING 2023-09-19 23:34:17,765 basehttp 5892 13852 "GET /index/d HTTP/1.1" 404 4664
+INFO 2023-09-19 23:34:30,157 basehttp 5892 13852 "GET /index/add_good_with_image HTTP/1.1" 301 0
+ERROR 2023-09-19 23:34:30,198 log 5892 22364 Internal Server Error: /index/add_good_with_image/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py", line 72, in add_good_with_image
+    return render(request, 'hw2_app/add_good_with_image', {'form': form, 'message': message})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: hw2_app/add_good_with_image
+ERROR 2023-09-19 23:34:30,199 basehttp 5892 22364 "GET /index/add_good_with_image/ HTTP/1.1" 500 89866
+INFO 2023-09-19 23:35:43,615 autoreload 5892 8240 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py changed, reloading.
+INFO 2023-09-19 23:35:43,907 autoreload 18640 20552 Watching for file changes with StatReloader
+ERROR 2023-09-19 23:35:44,723 log 18640 21208 Internal Server Error: /index/add_good_with_image/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py", line 72, in add_good_with_image
+    return render(request, 'hw2_app/add_good_with_image.html', {'form': form, 'message': message})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 11: 'endfor', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-09-19 23:35:44,726 basehttp 18640 21208 "GET /index/add_good_with_image/ HTTP/1.1" 500 174199
+INFO 2023-09-19 23:35:54,462 basehttp 18640 21208 "GET /index/add_good_with_image/ HTTP/1.1" 200 1599
+INFO 2023-09-19 23:40:05,788 basehttp 18640 21208 "POST /index/add_good_with_image/ HTTP/1.1" 200 1696
+INFO 2023-09-19 23:40:23,311 basehttp 18640 21208 "POST /index/add_good_with_image/ HTTP/1.1" 200 1696
+INFO 2023-09-19 23:41:55,701 autoreload 17392 21688 Watching for file changes with StatReloader
+INFO 2023-09-19 23:42:01,641 basehttp 17392 13848 "GET /index/add_good_with_image/ HTTP/1.1" 200 1599
+INFO 2023-09-19 23:42:42,103 basehttp 17392 13848 "POST /index/add_good_with_image/ HTTP/1.1" 200 1695
+INFO 2023-09-19 23:44:35,874 autoreload 17392 21688 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\forms.py changed, reloading.
+INFO 2023-09-19 23:44:36,147 autoreload 21608 22192 Watching for file changes with StatReloader
+INFO 2023-09-19 23:44:42,224 basehttp 21608 22396 "POST /index/add_good_with_image/ HTTP/1.1" 200 2042
+INFO 2023-09-19 23:44:45,202 basehttp 21608 22396 "POST /index/add_good_with_image/ HTTP/1.1" 200 2042
+INFO 2023-09-19 23:44:47,823 basehttp 21608 22396 "GET /index/add_good_with_image/ HTTP/1.1" 200 1887
+INFO 2023-09-19 23:45:13,151 autoreload 21608 22192 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\forms.py changed, reloading.
+INFO 2023-09-19 23:45:13,439 autoreload 2284 16984 Watching for file changes with StatReloader
+INFO 2023-09-19 23:45:13,664 basehttp 2284 21988 "GET /index/add_good_with_image/ HTTP/1.1" 200 1897
+INFO 2023-09-19 23:45:30,528 basehttp 2284 21988 "POST /index/add_good_with_image/ HTTP/1.1" 200 2021
+INFO 2023-09-19 23:46:02,550 autoreload 2284 16984 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\forms.py changed, reloading.
+INFO 2023-09-19 23:46:02,837 autoreload 20624 4732 Watching for file changes with StatReloader
+INFO 2023-09-19 23:46:04,059 basehttp 20624 20232 "GET /index/add_good_with_image/ HTTP/1.1" 200 1897
+INFO 2023-09-19 23:46:14,384 basehttp 20624 20232 "POST /index/add_good_with_image/ HTTP/1.1" 200 1997
+INFO 2023-09-19 23:50:29,297 autoreload 13848 4792 Watching for file changes with StatReloader
+INFO 2023-09-19 23:50:30,673 basehttp 13848 21136 "GET / HTTP/1.1" 200 229
+WARNING 2023-09-19 23:50:30,782 log 13848 21136 Not Found: /favicon.ico
+WARNING 2023-09-19 23:50:30,782 basehttp 13848 21136 "GET /favicon.ico HTTP/1.1" 404 3614
+INFO 2023-09-19 23:50:34,654 basehttp 13848 17520 "GET /index/ HTTP/1.1" 200 10
+WARNING 2023-09-19 23:50:38,141 log 13848 17520 Not Found: /index/ds
+WARNING 2023-09-19 23:50:38,141 basehttp 13848 17520 "GET /index/ds HTTP/1.1" 404 4667
+INFO 2023-09-19 23:50:43,576 basehttp 13848 17520 "GET /index/add_good_with_image/ HTTP/1.1" 200 1897
+INFO 2023-09-19 23:51:48,958 basehttp 13848 19900 "POST /index/add_good_with_image/ HTTP/1.1" 200 1994
+INFO 2023-09-19 23:55:21,027 autoreload 13848 4792 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\models.py changed, reloading.
+INFO 2023-09-19 23:55:21,314 autoreload 13560 20624 Watching for file changes with StatReloader
+INFO 2023-09-19 23:55:50,090 autoreload 17064 16260 Watching for file changes with StatReloader
+INFO 2023-09-19 23:55:51,110 basehttp 17064 20316 "GET / HTTP/1.1" 200 229
+INFO 2023-09-19 23:55:55,610 basehttp 17064 20316 "GET /index/add_good_with_image/ HTTP/1.1" 200 1897
+INFO 2023-09-19 23:56:06,561 basehttp 17064 20316 "POST /index/add_good_with_image/ HTTP/1.1" 200 1993
+INFO 2023-09-19 23:56:13,715 basehttp 17064 20316 "POST /index/add_good_with_image/ HTTP/1.1" 200 1993
+INFO 2023-09-19 23:58:39,773 autoreload 17064 16260 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py changed, reloading.
+INFO 2023-09-19 23:58:40,001 autoreload 1336 8120 Watching for file changes with StatReloader
+INFO 2023-09-19 23:58:46,598 basehttp 1336 11044 "GET / HTTP/1.1" 200 229
+WARNING 2023-09-19 23:58:46,706 log 1336 11044 Not Found: /favicon.ico
+WARNING 2023-09-19 23:58:46,706 basehttp 1336 11044 "GET /favicon.ico HTTP/1.1" 404 3614
+INFO 2023-09-19 23:58:48,131 basehttp 1336 11044 "GET /index/add_good_with_image/ HTTP/1.1" 200 1897
+INFO 2023-09-19 23:58:58,419 basehttp 1336 14788 "POST /index/add_good_with_image/ HTTP/1.1" 200 1989
+INFO 2023-09-20 00:01:57,038 autoreload 1336 8120 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py changed, reloading.
+INFO 2023-09-20 00:01:57,429 autoreload 16612 16436 Watching for file changes with StatReloader
+INFO 2023-09-20 00:01:59,423 basehttp 16612 17244 "GET /index/add_good_with_image/ HTTP/1.1" 200 1897
+WARNING 2023-09-20 00:01:59,507 log 16612 17244 Not Found: /favicon.ico
+WARNING 2023-09-20 00:01:59,507 basehttp 16612 17244 "GET /favicon.ico HTTP/1.1" 404 3614
+INFO 2023-09-20 00:02:07,702 basehttp 16612 17244 "POST /index/add_good_with_image/ HTTP/1.1" 200 1993
+INFO 2023-09-20 00:06:44,862 autoreload 16612 16436 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py changed, reloading.
+INFO 2023-09-20 00:06:45,109 autoreload 13688 10196 Watching for file changes with StatReloader
+INFO 2023-09-20 00:06:46,714 basehttp 13688 6724 "GET /index/add_good_with_image/ HTTP/1.1" 200 1927
+INFO 2023-09-20 00:07:13,006 basehttp 13688 6724 "POST /index/add_good_with_image/ HTTP/1.1" 200 1995
+INFO 2023-09-20 00:08:44,128 autoreload 13688 10196 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py changed, reloading.
+INFO 2023-09-20 00:08:44,358 autoreload 4456 16124 Watching for file changes with StatReloader
+INFO 2023-09-20 00:09:02,671 basehttp 4456 9228 "POST /index/add_good_with_image/ HTTP/1.1" 200 1997
+INFO 2023-09-20 00:10:29,032 autoreload 4456 16124 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py changed, reloading.
+INFO 2023-09-20 00:10:29,262 autoreload 22432 5076 Watching for file changes with StatReloader
+INFO 2023-09-20 00:10:30,484 basehttp 22432 7196 "GET /index/add_good_with_image/ HTTP/1.1" 200 1924
+INFO 2023-09-20 00:11:41,503 autoreload 22432 5076 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py changed, reloading.
+INFO 2023-09-20 00:11:41,787 autoreload 388 6280 Watching for file changes with StatReloader
+INFO 2023-09-20 00:11:43,336 basehttp 388 11184 "GET /index/add_good_with_image/ HTTP/1.1" 200 1927
+ERROR 2023-09-20 00:12:15,548 log 388 11184 Internal Server Error: /index/add_good_with_image/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py", line 68, in add_good_with_image
+    good.save()
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1833, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\db\backends\base\operations.py", line 213, in fetch_returned_insert_columns
+    return cursor.fetchone()
+           ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+ERROR 2023-09-20 00:12:15,551 basehttp 388 11184 "POST /index/add_good_with_image/ HTTP/1.1" 500 137813
+INFO 2023-09-20 00:12:29,755 basehttp 388 11184 "GET /index/add_good_with_image/ HTTP/1.1" 200 1927
+ERROR 2023-09-20 00:13:07,590 log 388 11184 Internal Server Error: /index/add_good_with_image/
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py", line 68, in add_good_with_image
+    good.save()
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1833, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\db\backends\base\operations.py", line 213, in fetch_returned_insert_columns
+    return cursor.fetchone()
+           ^^^^^^^^^^^^^^^^^
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "A:\PythonPyCharm\PyCharmProjects\gb_django\venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+ERROR 2023-09-20 00:13:07,592 basehttp 388 11184 "POST /index/add_good_with_image/ HTTP/1.1" 500 137952
+INFO 2023-09-20 00:13:19,239 basehttp 388 11184 "POST /index/add_good_with_image/ HTTP/1.1" 200 1983
+INFO 2023-09-20 00:13:24,457 basehttp 388 11184 "POST /index/add_good_with_image/ HTTP/1.1" 200 1983
+INFO 2023-09-20 00:13:31,898 basehttp 388 11184 "POST /index/add_good_with_image/ HTTP/1.1" 200 1983
+INFO 2023-09-20 00:14:06,176 autoreload 388 6280 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\views.py changed, reloading.
+INFO 2023-09-20 00:14:06,464 autoreload 2532 20696 Watching for file changes with StatReloader
+INFO 2023-09-20 00:14:17,860 basehttp 2532 13228 "POST /index/add_good_with_image/ HTTP/1.1" 200 1992
+INFO 2023-09-20 00:16:16,872 autoreload 2320 21736 Watching for file changes with StatReloader
+INFO 2023-09-20 00:16:18,436 basehttp 2320 15936 "GET / HTTP/1.1" 200 229
+WARNING 2023-09-20 00:16:18,551 log 2320 15936 Not Found: /favicon.ico
+WARNING 2023-09-20 00:16:18,552 basehttp 2320 15936 "GET /favicon.ico HTTP/1.1" 404 3614
+WARNING 2023-09-20 00:16:25,252 log 2320 20788 Not Found: /hw2/
+WARNING 2023-09-20 00:16:25,252 basehttp 2320 20788 "GET /hw2/ HTTP/1.1" 404 3593
+INFO 2023-09-20 00:16:32,300 basehttp 2320 20788 "GET /index/add_good_with_image/ HTTP/1.1" 200 1927

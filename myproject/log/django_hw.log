@@ -207,6 +207,26 @@ INFO 2023-09-11 22:17:20,840 basehttp 23216 24416 "GET /les3/post/4 HTTP/1.1" 20
 INFO 2023-09-11 22:17:26,904 basehttp 23216 24416 "GET /les3/post/7 HTTP/1.1" 200 916
 INFO 2023-09-11 22:17:28,995 basehttp 23216 24416 "GET /les3/post/6 HTTP/1.1" 200 951
 INFO 2023-09-11 22:17:32,057 basehttp 23216 24416 "GET /les3/post/5 HTTP/1.1" 200 904
+INFO 2023-09-12 17:50:55,555 autoreload 9852 14888 Watching for file changes with StatReloader
+INFO 2023-09-12 17:50:58,245 basehttp 9852 17456 "GET / HTTP/1.1" 200 497
+WARNING 2023-09-12 17:50:58,363 log 9852 17456 Not Found: /favicon.ico
+WARNING 2023-09-12 17:50:58,364 basehttp 9852 17456 "GET /favicon.ico HTTP/1.1" 404 2318
+INFO 2023-09-12 17:51:02,642 basehttp 9852 17456 "GET / HTTP/1.1" 200 497
+INFO 2023-09-12 17:51:09,864 basehttp 9852 17456 "GET /les3/ HTTP/1.1" 200 375
+INFO 2023-09-12 17:51:16,016 basehttp 9852 17456 "GET /les3/about HTTP/1.1" 301 0
+INFO 2023-09-12 17:51:16,024 basehttp 9852 12968 "GET /les3/about/ HTTP/1.1" 200 442
+WARNING 2023-09-12 17:51:19,921 log 9852 12968 Not Found: /les3/ab
+WARNING 2023-09-12 17:51:19,922 basehttp 9852 12968 "GET /les3/ab HTTP/1.1" 404 4439
+INFO 2023-09-12 17:51:26,766 basehttp 9852 12968 "GET /les3/index HTTP/1.1" 301 0
+INFO 2023-09-12 17:51:26,771 basehttp 9852 10680 "GET /les3/index/ HTTP/1.1" 200 497
+WARNING 2023-09-12 17:51:30,122 log 9852 10680 Not Found: /les3/index/54
+WARNING 2023-09-12 17:51:30,122 basehttp 9852 10680 "GET /les3/index/54 HTTP/1.1" 404 4457
+WARNING 2023-09-12 17:51:34,848 log 9852 10680 Not Found: /les3/index/4
+WARNING 2023-09-12 17:51:34,848 basehttp 9852 10680 "GET /les3/index/4 HTTP/1.1" 404 4454
+INFO 2023-09-12 17:51:43,210 basehttp 9852 10680 "GET /les3/author/4 HTTP/1.1" 200 1402
+INFO 2023-09-12 17:51:44,870 basehttp 9852 10680 "GET /les3/post/26 HTTP/1.1" 200 947
+INFO 2023-09-12 17:51:47,058 basehttp 9852 10680 "GET /les3/post/27 HTTP/1.1" 200 906
+INFO 2023-09-12 17:51:49,106 basehttp 9852 10680 "GET /les3/post/28 HTTP/1.1" 200 894
 INFO 2023-09-11 22:18:41,672 autoreload 23216 15072 A:\PythonPyCharm\PyCharmProjects\gb_django\myproject\myapp3\migrations\0001_initial.py changed, reloading.
 INFO 2023-09-11 22:18:41,940 autoreload 18040 3896 Watching for file changes with StatReloader
 INFO 2023-09-17 21:58:52,918 autoreload 11020 4036 Watching for file changes with StatReloader
@@ -506,3 +526,45 @@ INFO 2023-09-18 23:49:37,700 autoreload 20432 2088 A:\PythonPyCharm\PyCharmProje
 INFO 2023-09-18 23:49:37,931 autoreload 3860 18452 Watching for file changes with StatReloader
 INFO 2023-09-18 23:50:30,263 basehttp 3860 18160 "POST /les4/forms/ HTTP/1.1" 200 2464
 INFO 2023-09-18 23:51:11,204 basehttp 3860 18160 "POST /les4/forms/ HTTP/1.1" 200 2445
+INFO 2023-09-19 12:09:36,406 autoreload 4292 2292 Watching for file changes with StatReloader
+INFO 2023-09-19 12:09:39,204 basehttp 4292 17844 "GET / HTTP/1.1" 200 497
+WARNING 2023-09-19 12:09:39,309 log 4292 17844 Not Found: /favicon.ico
+WARNING 2023-09-19 12:09:39,310 basehttp 4292 17844 "GET /favicon.ico HTTP/1.1" 404 2423
+WARNING 2023-09-19 12:09:46,909 log 4292 17844 Not Found: /les4/
+WARNING 2023-09-19 12:09:46,910 basehttp 4292 17844 "GET /les4/ HTTP/1.1" 404 2662
+INFO 2023-09-19 12:09:53,001 basehttp 4292 17844 "GET /les4/forms HTTP/1.1" 301 0
+INFO 2023-09-19 12:09:53,028 basehttp 4292 18256 "GET /les4/forms/ HTTP/1.1" 200 2349
+INFO 2023-09-19 12:19:11,553 autoreload 4292 2292 C:\Users\dsokolovskiy\PycharmProjects\gb_django\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-19 12:19:12,053 autoreload 18896 19748 Watching for file changes with StatReloader
+INFO 2023-09-19 13:40:50,790 autoreload 18576 19600 Watching for file changes with StatReloader
+INFO 2023-09-19 13:40:52,859 basehttp 18576 22036 "GET / HTTP/1.1" 200 497
+WARNING 2023-09-19 13:41:18,511 log 18576 22036 Not Found: /user
+WARNING 2023-09-19 13:41:18,511 basehttp 18576 22036 "GET /user HTTP/1.1" 404 2402
+INFO 2023-09-19 13:41:28,785 basehttp 18576 22036 "GET /les4/user HTTP/1.1" 301 0
+ERROR 2023-09-19 13:41:28,831 log 18576 16716 Internal Server Error: /les4/user/
+Traceback (most recent call last):
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\myproject\myapp4\views.py", line 51, in add_user
+    return render(request, 'myapp4/add_user.html', {'form': form, 'message': message})
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\dsokolovskiy\PycharmProjects\gb_django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp4/add_user.html
+ERROR 2023-09-19 13:41:28,835 basehttp 18576 16716 "GET /les4/user/ HTTP/1.1" 500 85900
+INFO 2023-09-19 13:42:31,487 autoreload 18576 19600 C:\Users\dsokolovskiy\PycharmProjects\gb_django\myproject\myapp4\views.py changed, reloading.
+INFO 2023-09-19 13:42:31,943 autoreload 12880 19928 Watching for file changes with StatReloader
+INFO 2023-09-19 13:42:33,982 basehttp 12880 23312 "GET /les4/user/ HTTP/1.1" 200 1168
+INFO 2023-09-19 13:43:33,290 basehttp 12880 23312 "POST /les4/user/ HTTP/1.1" 200 1412
+INFO 2023-09-19 13:44:03,875 basehttp 12880 23312 "POST /les4/user/ HTTP/1.1" 200 1238
+INFO 2023-09-19 13:46:44,159 autoreload 12880 19928 C:\Users\dsokolovskiy\PycharmProjects\gb_django\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-19 13:46:44,595 autoreload 19656 22620 Watching for file changes with StatReloader
+INFO 2023-09-19 13:58:56,032 autoreload 18912 16504 Watching for file changes with StatReloader
+INFO 2023-09-19 13:59:20,975 basehttp 18912 22400 "GET /les4/upload HTTP/1.1" 301 0
+INFO 2023-09-19 13:59:20,992 basehttp 18912 23208 "GET /les4/upload/ HTTP/1.1" 200 855
+INFO 2023-09-19 13:59:50,041 basehttp 18912 23208 "POST /les4/upload/ HTTP/1.1" 200 855

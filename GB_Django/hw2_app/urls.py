@@ -8,4 +8,5 @@ urlpatterns = [
     path('orders_get/', views.orders_get, name='orders_get'),
     path('get_orders_by_period/<int:client_id>/<int:time_for_check>', views.get_orders_by_period,
          name='get_orders_by_period'),
+    path('add_good_with_image/', views.add_good_with_image, name='add_good_with_image'),
 ]

@@ -117,6 +117,9 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
@@ -145,6 +148,12 @@ LOGGING = {
             'encoding': 'utf-8',
             'formatter': 'verbose',
         },
+        'file_hw4': {
+            'class': 'logging.FileHandler',
+            'filename': './log/django_hw4.log',  # 'filename': '.log/django.log'
+            'encoding': 'utf-8',
+            'formatter': 'verbose',
+        },
     },
     'loggers': {
         'django': {
@@ -167,7 +176,7 @@ LOGGING = {
             'propagate': True,
         },
         'hw2_app': {
-            'handlers': ['console', 'file'],  # 'handlers': ['console', 'file'],
+            'handlers': ['console', 'file_hw4'],  # 'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,
         },

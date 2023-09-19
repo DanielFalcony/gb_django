@@ -1,9 +1,12 @@
 from datetime import datetime, timedelta
 
+from django.core.files.storage import FileSystemStorage
 from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse
 import logging
 
+from hw2_app.forms import GoodAddForm
+from hw2_app.management.commands.fake_date import generate_random_date
 from hw2_app.models import Client, Goods, Order
 
 logger = logging.getLogger(__name__)
@@ -42,3 +45,28 @@ def get_orders_by_period(request, client_id, time_for_check):
     else:
         return render(request, 'hw2_app/get_orders_by_period.html',
                       {'client': client, 'result': 'Нет заказов!', 'time': time_for_check})
+
+
+def add_good_with_image(request):
+    if request.method == 'POST':
+        form = GoodAddForm(request.POST, request.FILES)
+        message = 'Данные добавлены!'
+        if form.is_valid():
+            product_name = form.cleaned_data['product_name']
+            product_description = form.cleaned_data['product_description']
+            product_price = form.cleaned_data['product_price']
+            product_quantity = form.cleaned_data['product_quantity']
+            product_image = form.cleaned_data['product_image']
+            fs = FileSystemStorage()
+            fs.save(product_image.name, product_image)
+            logger.info(
+                f'Добавлен товар: {product_name=}, {product_description=}, {product_price=}, {product_quantity=}, '
+                f'{product_image.name}.')
+            good = Goods(product_name=product_name, product_description=product_description,
+                         product_price=product_price, product_quantity=product_quantity,
+                         product_image=product_image, date_item_add=generate_random_date(2021, 2023))
+            good.save()
+    else:
+        form = GoodAddForm()
+        message = 'Заполните форму'
+    return render(request, 'hw2_app/add_good_with_image.html', {'form': form, 'message': message})
