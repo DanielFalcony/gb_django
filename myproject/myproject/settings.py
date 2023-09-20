@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'myapp3',
     'myapp4',
+    'myapp5',
 ]
 
 MIDDLEWARE = [
@@ -102,7 +103,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru-ru'
 
 TIME_ZONE = 'Europe/Moscow'
 
@@ -152,6 +153,12 @@ LOGGING = {
             'encoding': 'utf-8',
             'formatter': 'verbose',
         },
+        'log_myapp5': {
+            'class': 'logging.FileHandler',
+            'filename': './log/django_myapp5.log',  # 'filename': '.log/django.log'
+            'encoding': 'utf-8',
+            'formatter': 'verbose',
+        },
     },
     'loggers': {
         'django': {
@@ -165,6 +172,11 @@ LOGGING = {
         },
         'myapp4': {
             'handlers': ['console', 'log_myapp4'],  # 'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'myapp5': {
+            'handlers': ['console', 'log_myapp5'],  # 'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,
         },
