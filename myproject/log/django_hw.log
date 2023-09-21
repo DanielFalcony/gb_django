@@ -831,3 +831,36 @@ INFO 2023-09-20 22:46:24,814 basehttp 9576 21056 "GET /static/admin/js/cancel.js
 INFO 2023-09-20 22:46:43,096 basehttp 9576 21056 "POST /admin/myapp5/product/1/delete/ HTTP/1.1" 302 0
 INFO 2023-09-20 22:46:43,106 basehttp 9576 21056 "GET /admin/myapp5/product/ HTTP/1.1" 200 10820
 INFO 2023-09-20 22:46:43,123 basehttp 9576 21056 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-21 18:09:12,816 autoreload 3304 5928 Watching for file changes with StatReloader
+INFO 2023-09-21 18:09:14,575 basehttp 3304 20552 "GET / HTTP/1.1" 200 497
+WARNING 2023-09-21 18:09:14,694 log 3304 20552 Not Found: /favicon.ico
+WARNING 2023-09-21 18:09:14,695 basehttp 3304 20552 "GET /favicon.ico HTTP/1.1" 404 2423
+INFO 2023-09-21 18:09:25,236 basehttp 3304 20552 "GET /admin HTTP/1.1" 301 0
+INFO 2023-09-21 18:09:25,260 basehttp 3304 19804 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-21 18:09:25,332 basehttp 3304 19804 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4271
+INFO 2023-09-21 18:09:25,488 basehttp 3304 19804 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2023-09-21 18:09:25,506 basehttp 3304 11000 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2023-09-21 18:09:25,511 basehttp 3304 19804 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2023-09-21 18:09:25,512 basehttp 3304 2324 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-09-21 18:09:25,513 basehttp 3304 25260 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2023-09-21 18:09:25,518 basehttp 3304 18848 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2023-09-21 18:09:25,520 basehttp 3304 11748 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2023-09-21 18:09:29,377 basehttp 3304 11748 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-21 18:09:29,410 basehttp 3304 11748 "GET /admin/ HTTP/1.1" 200 11017
+INFO 2023-09-21 18:09:29,437 basehttp 3304 11748 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2023-09-21 18:09:29,454 basehttp 3304 18848 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-09-21 18:09:29,454 basehttp 3304 11748 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2023-09-21 18:09:29,454 basehttp 3304 19804 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2023-09-21 18:09:40,355 basehttp 3304 11748 "GET /admin/myapp5/product/ HTTP/1.1" 200 10658
+INFO 2023-09-21 18:09:40,400 basehttp 3304 18848 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-21 18:09:40,401 basehttp 3304 11748 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2023-09-21 18:09:40,401 basehttp 3304 25260 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-09-21 18:09:40,401 basehttp 3304 2324 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-09-21 18:09:40,404 basehttp 3304 11000 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2023-09-21 18:09:40,420 basehttp 3304 2324 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-09-21 18:09:40,420 basehttp 3304 11748 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-09-21 18:09:40,421 basehttp 3304 25260 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-09-21 18:09:40,463 basehttp 3304 19804 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-09-21 18:09:40,487 basehttp 3304 18848 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2023-09-21 18:09:40,530 basehttp 3304 19804 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2023-09-21 18:09:40,568 basehttp 3304 18848 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
