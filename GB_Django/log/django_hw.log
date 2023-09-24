@@ -2973,3 +2973,450 @@ INFO 2023-09-20 00:29:03,687 basehttp 21216 17708 "GET / HTTP/1.1" 200 229
 WARNING 2023-09-20 00:29:03,775 log 21216 17708 Not Found: /favicon.ico
 WARNING 2023-09-20 00:29:03,775 basehttp 21216 17708 "GET /favicon.ico HTTP/1.1" 404 3614
 INFO 2023-09-20 00:29:09,085 basehttp 21216 17708 "GET /index/add_good_with_image/ HTTP/1.1" 200 1927
+INFO 2023-09-24 23:41:36,213 autoreload 20100 15972 Watching for file changes with StatReloader
+INFO 2023-09-24 23:41:49,516 basehttp 20100 16492 "GET / HTTP/1.1" 200 229
+WARNING 2023-09-24 23:41:49,603 log 20100 16492 Not Found: /favicon.ico
+WARNING 2023-09-24 23:41:49,604 basehttp 20100 16492 "GET /favicon.ico HTTP/1.1" 404 3614
+INFO 2023-09-24 23:44:46,764 basehttp 20100 4532 "GET / HTTP/1.1" 200 229
+INFO 2023-09-24 23:45:28,883 basehttp 20100 16492 "GET / HTTP/1.1" 200 229
+INFO 2023-09-24 23:45:44,948 basehttp 20100 16492 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-24 23:45:44,997 basehttp 20100 16492 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4271
+INFO 2023-09-24 23:45:45,015 basehttp 20100 16492 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-09-24 23:45:45,015 basehttp 20100 13996 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-09-24 23:45:45,015 basehttp 20100 11420 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-09-24 23:45:45,015 basehttp 20100 12316 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2023-09-24 23:45:45,016 basehttp 20100 23396 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-09-24 23:45:45,025 basehttp 20100 23396 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-09-24 23:45:45,025 basehttp 20100 12316 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-09-24 23:45:52,010 basehttp 20100 12316 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-24 23:45:52,025 basehttp 20100 12316 "GET /admin/ HTTP/1.1" 200 5856
+INFO 2023-09-24 23:45:52,038 basehttp 20100 12316 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2023-09-24 23:45:52,054 basehttp 20100 12316 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-09-24 23:45:52,054 basehttp 20100 23396 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2023-09-24 23:46:06,320 basehttp 20100 12316 "GET /admin/auth/user/ HTTP/1.1" 200 11296
+INFO 2023-09-24 23:46:06,338 basehttp 20100 12316 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2023-09-24 23:46:06,338 basehttp 20100 16492 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-09-24 23:46:06,338 basehttp 20100 13996 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-09-24 23:46:06,338 basehttp 20100 11420 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-09-24 23:46:06,339 basehttp 20100 6924 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-09-24 23:46:06,340 basehttp 20100 13996 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-09-24 23:46:06,340 basehttp 20100 12316 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-09-24 23:46:06,340 basehttp 20100 16492 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-09-24 23:46:06,341 basehttp 20100 11420 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-09-24 23:46:06,341 basehttp 20100 23396 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 23:46:06,361 basehttp 20100 23396 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2023-09-24 23:46:06,365 basehttp 20100 23396 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2023-09-24 23:46:06,367 basehttp 20100 23396 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2023-09-24 23:46:06,370 basehttp 20100 23396 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2023-09-24 23:46:06,394 basehttp 20100 16492 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2023-09-24 23:46:11,115 basehttp 20100 16492 "GET /admin/auth/group/ HTTP/1.1" 200 7645
+INFO 2023-09-24 23:46:11,131 basehttp 20100 16492 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 23:46:12,513 basehttp 20100 16492 "GET /admin/auth/user/ HTTP/1.1" 200 11296
+INFO 2023-09-24 23:46:12,529 basehttp 20100 16492 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 23:47:35,519 basehttp 20100 16492 "GET /admin/auth/user/add/ HTTP/1.1" 200 10992
+INFO 2023-09-24 23:47:35,533 basehttp 20100 16492 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2023-09-24 23:47:35,534 basehttp 20100 11420 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2023-09-24 23:47:35,535 basehttp 20100 23396 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 23:47:35,550 basehttp 20100 23396 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2023-09-24 23:47:35,552 basehttp 20100 16492 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2023-09-24 23:47:52,232 basehttp 20100 16492 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 23:47:52,243 basehttp 20100 16492 "GET /admin/auth/user/add/ HTTP/1.1" 200 11300
+INFO 2023-09-24 23:47:52,257 basehttp 20100 16492 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 23:47:56,019 basehttp 20100 16492 "GET /admin/auth/user/ HTTP/1.1" 200 11678
+INFO 2023-09-24 23:47:56,033 basehttp 20100 16492 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 23:47:56,048 basehttp 20100 16492 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2023-09-24 23:47:57,740 basehttp 20100 16492 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 23545
+INFO 2023-09-24 23:47:57,757 basehttp 20100 13996 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2023-09-24 23:47:57,757 basehttp 20100 12316 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2023-09-24 23:47:57,758 basehttp 20100 16492 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 23:47:57,759 basehttp 20100 23396 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2023-09-24 23:47:57,760 basehttp 20100 11420 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2023-09-24 23:47:57,794 basehttp 20100 12316 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2023-09-24 23:47:57,794 basehttp 20100 13996 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2023-09-24 23:47:57,795 basehttp 20100 16492 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2023-09-24 23:47:57,795 basehttp 20100 11420 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2023-09-24 23:47:57,795 basehttp 20100 23396 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2023-09-24 23:50:20,791 basehttp 20100 23396 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2023-09-24 23:50:20,801 basehttp 20100 23396 "GET /admin/auth/user/ HTTP/1.1" 200 11898
+INFO 2023-09-24 23:50:20,817 basehttp 20100 23396 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 23:51:58,748 autoreload 20100 15972 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-24 23:51:58,983 autoreload 10280 11336 Watching for file changes with StatReloader
+INFO 2023-09-24 23:52:23,431 autoreload 10280 11336 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-24 23:52:23,660 autoreload 18984 17328 Watching for file changes with StatReloader
+INFO 2023-09-24 23:52:26,888 autoreload 18984 17328 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-24 23:52:27,137 autoreload 15144 12216 Watching for file changes with StatReloader
+INFO 2023-09-24 23:52:53,610 autoreload 15144 12216 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-24 23:52:53,846 autoreload 13496 6192 Watching for file changes with StatReloader
+INFO 2023-09-24 23:53:13,463 basehttp 13496 13472 "GET /admin/auth/user/ HTTP/1.1" 200 12828
+INFO 2023-09-24 23:53:13,487 basehttp 13496 13472 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 23:53:17,182 basehttp 13496 13472 "GET /admin/hw2_app/client/ HTTP/1.1" 200 12568
+INFO 2023-09-24 23:53:17,199 basehttp 13496 13472 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 23:53:18,272 basehttp 13496 13472 "GET /admin/hw2_app/goods/ HTTP/1.1" 200 13317
+INFO 2023-09-24 23:53:18,287 basehttp 13496 13472 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 23:53:29,456 basehttp 13496 13472 "GET /admin/hw2_app/goods/16/change/ HTTP/1.1" 200 13357
+INFO 2023-09-24 23:53:29,473 basehttp 13496 13472 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 23:53:30,705 basehttp 13496 13472 "GET /admin/hw2_app/goods/ HTTP/1.1" 200 13317
+INFO 2023-09-24 23:53:32,280 basehttp 13496 13472 "GET /admin/hw2_app/order/ HTTP/1.1" 200 13085
+INFO 2023-09-24 23:53:32,296 basehttp 13496 13472 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 23:53:33,102 basehttp 13496 13472 "GET /admin/hw2_app/order/10/change/ HTTP/1.1" 200 16391
+INFO 2023-09-24 23:53:33,117 basehttp 13496 13472 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 23:53:33,131 basehttp 13496 13472 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2023-09-24 23:53:36,243 basehttp 13496 13472 "GET /admin/hw2_app/order/ HTTP/1.1" 200 13085
+INFO 2023-09-24 23:53:37,954 basehttp 13496 13472 "GET /admin/hw2_app/client/ HTTP/1.1" 200 12568
+INFO 2023-09-24 23:53:37,969 basehttp 13496 13472 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 23:53:58,075 basehttp 13496 13472 "GET /admin/hw2_app/client/ HTTP/1.1" 200 12568
+INFO 2023-09-24 23:53:58,092 basehttp 13496 13472 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 23:53:58,740 basehttp 13496 13472 "GET /admin/hw2_app/goods/ HTTP/1.1" 200 13317
+INFO 2023-09-24 23:53:58,755 basehttp 13496 13472 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 23:53:59,177 basehttp 13496 13472 "GET /admin/hw2_app/order/ HTTP/1.1" 200 13085
+INFO 2023-09-24 23:53:59,192 basehttp 13496 13472 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 23:54:00,321 basehttp 13496 13472 "GET /admin/hw2_app/client/ HTTP/1.1" 200 12568
+INFO 2023-09-24 23:54:00,338 basehttp 13496 13472 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 23:54:06,576 basehttp 13496 13472 "GET /admin/hw2_app/client/add/ HTTP/1.1" 200 11963
+INFO 2023-09-24 23:54:06,592 basehttp 13496 13472 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 23:55:22,017 basehttp 13496 13472 "POST /admin/hw2_app/client/add/ HTTP/1.1" 200 12229
+INFO 2023-09-24 23:55:22,035 basehttp 13496 13472 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 23:55:24,542 basehttp 13496 13472 "POST /admin/hw2_app/client/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 23:55:24,553 basehttp 13496 13472 "GET /admin/hw2_app/client/ HTTP/1.1" 200 13235
+INFO 2023-09-24 23:55:24,569 basehttp 13496 13472 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 23:55:27,011 basehttp 13496 13472 "GET /admin/hw2_app/client/11/change/ HTTP/1.1" 200 12665
+INFO 2023-09-24 23:55:27,027 basehttp 13496 13472 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 23:55:50,787 basehttp 13496 13472 "GET /admin/hw2_app/goods/ HTTP/1.1" 200 13317
+INFO 2023-09-24 23:55:50,803 basehttp 13496 13472 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 23:55:53,571 basehttp 13496 13472 "GET /admin/hw2_app/goods/add/ HTTP/1.1" 200 12795
+INFO 2023-09-24 23:55:53,588 basehttp 13496 13472 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 23:57:17,294 basehttp 13496 13472 "POST /admin/hw2_app/goods/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 23:57:17,322 basehttp 13496 13472 "GET /admin/hw2_app/goods/ HTTP/1.1" 200 13794
+INFO 2023-09-24 23:57:17,340 basehttp 13496 13472 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 23:57:25,493 basehttp 13496 13472 "GET /admin/hw2_app/goods/17/change/ HTTP/1.1" 200 13321
+INFO 2023-09-24 23:57:25,510 basehttp 13496 13472 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+WARNING 2023-09-24 23:57:27,959 log 13496 13472 Not Found: /media/post_5bd9c52313c6a.png
+WARNING 2023-09-24 23:57:27,959 basehttp 13496 13472 "GET /media/post_5bd9c52313c6a.png HTTP/1.1" 404 3665
+INFO 2023-09-24 23:57:45,344 basehttp 13496 13472 "GET /admin/hw2_app/goods/17/change/ HTTP/1.1" 200 13321
+WARNING 2023-09-24 23:57:52,965 log 13496 13472 Not Found: /media/post_5bd9c52313c6a.png
+WARNING 2023-09-24 23:57:52,966 basehttp 13496 13472 "GET /media/post_5bd9c52313c6a.png HTTP/1.1" 404 3665
+INFO 2023-09-25 00:05:47,300 basehttp 13496 13388 "GET /admin/hw2_app/goods/17/change/ HTTP/1.1" 200 13321
+INFO 2023-09-25 00:07:29,963 basehttp 13496 13388 "GET /admin/hw2_app/order/ HTTP/1.1" 200 13085
+INFO 2023-09-25 00:07:29,982 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:07:32,994 basehttp 13496 13388 "GET /admin/hw2_app/order/add/ HTTP/1.1" 200 15885
+INFO 2023-09-25 00:07:33,012 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:07:44,220 basehttp 13496 13388 "GET /admin/hw2_app/goods/add/?_to_field=id&_popup=1 HTTP/1.1" 200 8002
+INFO 2023-09-25 00:07:44,235 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:08:02,807 basehttp 13496 13388 "GET /admin/hw2_app/goods/add/?_to_field=id&_popup=1 HTTP/1.1" 200 8002
+INFO 2023-09-25 00:08:02,828 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:08:13,122 basehttp 13496 13388 "POST /admin/hw2_app/order/add/ HTTP/1.1" 302 0
+INFO 2023-09-25 00:08:13,135 basehttp 13496 13388 "GET /admin/hw2_app/order/ HTTP/1.1" 200 13848
+INFO 2023-09-25 00:08:13,152 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:08:15,297 basehttp 13496 13388 "GET /admin/hw2_app/order/ HTTP/1.1" 200 13469
+INFO 2023-09-25 00:08:15,313 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:08:17,364 basehttp 13496 13388 "GET /admin/hw2_app/order/11/change/ HTTP/1.1" 200 16659
+INFO 2023-09-25 00:08:17,385 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:08:32,399 basehttp 13496 13388 "POST /admin/hw2_app/order/11/change/ HTTP/1.1" 302 0
+INFO 2023-09-25 00:08:32,411 basehttp 13496 13388 "GET /admin/hw2_app/order/add/ HTTP/1.1" 200 16321
+INFO 2023-09-25 00:08:32,427 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:08:35,841 basehttp 13496 13388 "GET /admin/hw2_app/order/ HTTP/1.1" 200 13469
+INFO 2023-09-25 00:08:35,857 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:08:40,123 basehttp 13496 13388 "GET /admin/hw2_app/order/ HTTP/1.1" 200 13469
+INFO 2023-09-25 00:08:40,139 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:08:41,431 basehttp 13496 13388 "GET /admin/hw2_app/order/11/change/ HTTP/1.1" 200 16659
+INFO 2023-09-25 00:08:41,448 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:08:57,422 basehttp 13496 13388 "GET /admin/hw2_app/order/11/history/ HTTP/1.1" 200 8423
+INFO 2023-09-25 00:09:09,013 basehttp 13496 13388 "GET /admin/hw2_app/order/ HTTP/1.1" 200 13469
+INFO 2023-09-25 00:09:09,028 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:09:16,544 basehttp 13496 13388 "GET /admin/hw2_app/order/add/ HTTP/1.1" 200 15885
+INFO 2023-09-25 00:09:16,561 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:09:32,410 basehttp 13496 13388 "POST /admin/hw2_app/order/add/ HTTP/1.1" 200 16135
+INFO 2023-09-25 00:09:32,426 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:09:37,202 basehttp 13496 13388 "POST /admin/hw2_app/order/add/ HTTP/1.1" 200 16067
+INFO 2023-09-25 00:09:37,220 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:09:46,587 basehttp 13496 13388 "POST /admin/hw2_app/order/add/ HTTP/1.1" 302 0
+INFO 2023-09-25 00:09:46,599 basehttp 13496 13388 "GET /admin/hw2_app/order/12/change/ HTTP/1.1" 200 17126
+INFO 2023-09-25 00:09:46,615 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:09:51,929 basehttp 13496 13388 "GET /admin/hw2_app/order/12/change/ HTTP/1.1" 200 16667
+INFO 2023-09-25 00:09:51,945 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:09:53,892 basehttp 13496 13388 "GET /admin/hw2_app/order/ HTTP/1.1" 200 13855
+INFO 2023-09-25 00:09:53,909 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:10:17,198 basehttp 13496 13388 "GET /admin/hw2_app/order/12/change/ HTTP/1.1" 200 16667
+INFO 2023-09-25 00:10:17,213 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:10:22,990 basehttp 13496 13388 "GET /admin/hw2_app/client/11/change/?_to_field=id&_popup=1 HTTP/1.1" 200 7509
+INFO 2023-09-25 00:10:23,004 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:10:27,941 basehttp 13496 13388 "GET /admin/hw2_app/client/11/change/?_to_field=id HTTP/1.1" 200 12714
+INFO 2023-09-25 00:10:27,957 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:10:31,157 basehttp 13496 13388 "GET /admin/hw2_app/order/12/change/ HTTP/1.1" 200 16667
+INFO 2023-09-25 00:10:59,626 basehttp 13496 13388 "POST /admin/hw2_app/order/12/change/ HTTP/1.1" 302 0
+INFO 2023-09-25 00:10:59,639 basehttp 13496 13388 "GET /admin/hw2_app/order/ HTTP/1.1" 200 14234
+INFO 2023-09-25 00:10:59,657 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:11:04,027 basehttp 13496 13388 "GET /admin/hw2_app/order/ HTTP/1.1" 200 13853
+INFO 2023-09-25 00:11:04,041 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:11:06,345 basehttp 13496 13388 "GET /admin/hw2_app/order/12/change/ HTTP/1.1" 200 16695
+INFO 2023-09-25 00:11:06,362 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:11:10,488 basehttp 13496 13388 "GET /admin/hw2_app/order/ HTTP/1.1" 200 13853
+INFO 2023-09-25 00:11:10,505 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:11:12,809 basehttp 13496 13388 "GET /admin/hw2_app/order/add/ HTTP/1.1" 200 15885
+INFO 2023-09-25 00:11:12,826 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:11:17,746 basehttp 13496 13388 "POST /admin/hw2_app/order/add/ HTTP/1.1" 200 16239
+INFO 2023-09-25 00:11:17,763 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:11:22,424 basehttp 13496 13388 "POST /admin/hw2_app/order/add/ HTTP/1.1" 200 16162
+INFO 2023-09-25 00:11:22,441 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:11:28,976 basehttp 13496 13388 "POST /admin/hw2_app/order/add/ HTTP/1.1" 200 16094
+INFO 2023-09-25 00:11:28,994 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:11:31,032 basehttp 13496 13388 "POST /admin/hw2_app/order/add/ HTTP/1.1" 302 0
+INFO 2023-09-25 00:11:31,045 basehttp 13496 13388 "GET /admin/hw2_app/order/ HTTP/1.1" 200 14568
+INFO 2023-09-25 00:11:31,066 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:11:33,231 basehttp 13496 13388 "GET /admin/hw2_app/order/13/change/ HTTP/1.1" 200 16614
+INFO 2023-09-25 00:11:33,250 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:11:48,470 basehttp 13496 13388 "GET /admin/hw2_app/order/ HTTP/1.1" 200 14213
+INFO 2023-09-25 00:11:48,486 basehttp 13496 13388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:15:46,052 basehttp 13496 13388 "POST /admin/logout/ HTTP/1.1" 200 3713
+INFO 2023-09-25 00:15:47,787 basehttp 13496 13388 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-25 00:15:47,793 basehttp 13496 13388 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4271
+INFO 2023-09-25 00:15:53,997 autoreload 23144 2668 Watching for file changes with StatReloader
+INFO 2023-09-25 00:15:55,150 basehttp 23144 14620 "GET / HTTP/1.1" 200 229
+INFO 2023-09-25 00:15:59,133 basehttp 23144 14620 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-25 00:15:59,148 basehttp 23144 14620 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4271
+INFO 2023-09-25 00:16:04,246 basehttp 23144 14620 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-25 00:16:04,257 basehttp 23144 14620 "GET /admin/ HTTP/1.1" 200 11046
+INFO 2023-09-25 00:18:22,335 autoreload 23144 2668 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar_app\admin.py changed, reloading.
+INFO 2023-09-25 00:18:22,588 autoreload 20400 16676 Watching for file changes with StatReloader
+INFO 2023-09-25 00:19:04,215 autoreload 20400 16676 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar_app\admin.py changed, reloading.
+INFO 2023-09-25 00:19:04,461 autoreload 17368 14736 Watching for file changes with StatReloader
+INFO 2023-09-25 00:20:24,680 autoreload 17368 14736 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar_app\admin.py changed, reloading.
+INFO 2023-09-25 00:20:24,917 autoreload 8420 18728 Watching for file changes with StatReloader
+INFO 2023-09-25 00:20:25,379 basehttp 8420 25356 "GET /admin/ HTTP/1.1" 200 13158
+INFO 2023-09-25 00:20:40,311 autoreload 8420 18728 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\seminar_app\admin.py changed, reloading.
+INFO 2023-09-25 00:20:40,556 autoreload 23504 10976 Watching for file changes with StatReloader
+INFO 2023-09-25 00:20:41,032 basehttp 23504 21756 "GET /admin/ HTTP/1.1" 200 11046
+INFO 2023-09-25 00:20:45,414 basehttp 23504 21756 "GET /admin/ HTTP/1.1" 200 11046
+INFO 2023-09-25 00:20:51,943 basehttp 23504 21756 "GET /admin/hw2_app/client/ HTTP/1.1" 200 12902
+INFO 2023-09-25 00:20:51,963 basehttp 23504 21756 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:22:23,136 autoreload 23504 10976 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:22:23,396 autoreload 8104 3976 Watching for file changes with StatReloader
+INFO 2023-09-25 00:22:31,666 autoreload 8104 3976 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:22:31,908 autoreload 9432 3460 Watching for file changes with StatReloader
+INFO 2023-09-25 00:22:39,151 autoreload 9432 3460 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:22:39,386 autoreload 8736 25140 Watching for file changes with StatReloader
+INFO 2023-09-25 00:23:31,089 autoreload 8736 25140 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:23:31,333 autoreload 23688 23828 Watching for file changes with StatReloader
+INFO 2023-09-25 00:24:00,900 autoreload 23688 23828 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:24:01,134 autoreload 26400 26304 Watching for file changes with StatReloader
+INFO 2023-09-25 00:24:44,874 autoreload 26400 26304 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:24:45,115 autoreload 7880 26536 Watching for file changes with StatReloader
+INFO 2023-09-25 00:29:15,505 autoreload 7880 26536 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:29:15,741 autoreload 20400 15848 Watching for file changes with StatReloader
+INFO 2023-09-25 00:32:09,142 autoreload 20400 15848 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:32:09,380 autoreload 21148 11048 Watching for file changes with StatReloader
+INFO 2023-09-25 00:32:21,688 basehttp 21148 25928 "GET / HTTP/1.1" 200 229
+INFO 2023-09-25 00:32:29,411 basehttp 21148 25928 "GET /admin/ HTTP/1.1" 200 11046
+INFO 2023-09-25 00:32:36,139 basehttp 21148 25928 "GET /admin/hw2_app/goods/ HTTP/1.1" 200 22439
+INFO 2023-09-25 00:32:36,158 basehttp 21148 25928 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:32:47,351 basehttp 21148 25928 "GET /admin/hw2_app/goods/?date_item_add__gte=2023-09-18&date_item_add__lt=2023-09-26 HTTP/1.1" 200 16359
+INFO 2023-09-25 00:32:47,369 basehttp 21148 25928 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:32:48,981 basehttp 21148 25928 "GET /admin/hw2_app/goods/?date_item_add__gte=2023-09-25&date_item_add__lt=2023-09-26 HTTP/1.1" 200 13043
+INFO 2023-09-25 00:32:48,997 basehttp 21148 25928 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:32:49,815 basehttp 21148 25928 "GET /admin/hw2_app/goods/?date_item_add__gte=2023-09-01&date_item_add__lt=2023-10-01 HTTP/1.1" 200 16359
+INFO 2023-09-25 00:32:49,831 basehttp 21148 25928 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:32:50,627 basehttp 21148 25928 "GET /admin/hw2_app/goods/?date_item_add__gte=2023-01-01&date_item_add__lt=2024-01-01 HTTP/1.1" 200 19370
+INFO 2023-09-25 00:32:50,643 basehttp 21148 25928 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:32:52,903 basehttp 21148 25928 "GET /admin/hw2_app/goods/?date_item_add__gte=2023-01-01&date_item_add__lt=2024-01-01&product_price=268.64 HTTP/1.1" 200 16805
+INFO 2023-09-25 00:32:52,921 basehttp 21148 25928 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:32:54,087 basehttp 21148 25928 "GET /admin/hw2_app/goods/?date_item_add__gte=2023-01-01&date_item_add__lt=2024-01-01&product_price=360.40 HTTP/1.1" 200 13251
+INFO 2023-09-25 00:32:54,103 basehttp 21148 25928 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:32:55,105 basehttp 21148 25928 "GET /admin/hw2_app/goods/?date_item_add__gte=2023-01-01&date_item_add__lt=2024-01-01&product_price=339.08 HTTP/1.1" 200 13251
+INFO 2023-09-25 00:32:55,122 basehttp 21148 25928 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:32:55,715 basehttp 21148 25928 "GET /admin/hw2_app/goods/?date_item_add__gte=2023-01-01&date_item_add__lt=2024-01-01&product_price=189.55 HTTP/1.1" 200 13251
+INFO 2023-09-25 00:32:55,731 basehttp 21148 25928 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:32:56,978 basehttp 21148 25928 "GET /admin/hw2_app/goods/? HTTP/1.1" 200 22439
+INFO 2023-09-25 00:32:56,995 basehttp 21148 25928 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:32:58,647 basehttp 21148 25928 "GET /admin/hw2_app/order/ HTTP/1.1" 200 14213
+INFO 2023-09-25 00:32:58,663 basehttp 21148 25928 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:32:59,982 basehttp 21148 25928 "GET /admin/hw2_app/client/ HTTP/1.1" 200 12902
+INFO 2023-09-25 00:32:59,997 basehttp 21148 25928 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:33:00,590 basehttp 21148 25928 "GET /admin/hw2_app/goods/ HTTP/1.1" 200 22439
+INFO 2023-09-25 00:33:00,605 basehttp 21148 25928 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:33:47,318 basehttp 21148 25928 "GET /admin/hw2_app/goods/?product_price=12340.96 HTTP/1.1" 200 14876
+INFO 2023-09-25 00:33:47,335 basehttp 21148 25928 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:33:49,048 basehttp 21148 25928 "GET /admin/hw2_app/goods/?product_price=189.55 HTTP/1.1" 200 14783
+INFO 2023-09-25 00:33:49,064 basehttp 21148 25928 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:33:50,128 basehttp 21148 25928 "GET /admin/hw2_app/goods/? HTTP/1.1" 200 22439
+INFO 2023-09-25 00:33:50,144 basehttp 21148 25928 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:34:04,952 basehttp 21148 25928 "GET /admin/hw2_app/goods/6/change/ HTTP/1.1" 200 12834
+INFO 2023-09-25 00:34:04,969 basehttp 21148 25928 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:34:04,994 basehttp 21148 15780 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2023-09-25 00:34:14,896 basehttp 21148 15780 "GET /admin/hw2_app/goods/ HTTP/1.1" 200 22439
+INFO 2023-09-25 00:34:14,914 basehttp 21148 15780 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:35:15,147 autoreload 21148 11048 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:35:15,403 autoreload 26152 26044 Watching for file changes with StatReloader
+INFO 2023-09-25 00:35:16,383 basehttp 26152 24724 "GET /admin/hw2_app/goods/ HTTP/1.1" 200 23273
+INFO 2023-09-25 00:35:16,400 basehttp 26152 24724 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:35:20,428 basehttp 26152 24724 "GET /admin/hw2_app/goods/?product_quantity=70 HTTP/1.1" 200 15975
+INFO 2023-09-25 00:35:20,445 basehttp 26152 24724 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:35:22,252 basehttp 26152 24724 "GET /admin/hw2_app/goods/?product_quantity=33 HTTP/1.1" 200 15987
+INFO 2023-09-25 00:35:22,268 basehttp 26152 24724 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:35:26,298 basehttp 26152 24724 "GET /admin/hw2_app/goods/?date_item_add__gte=2023-09-18&date_item_add__lt=2023-09-26&product_quantity=33 HTTP/1.1" 200 15261
+INFO 2023-09-25 00:35:26,313 basehttp 26152 24724 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:35:27,283 basehttp 26152 24724 "GET /admin/hw2_app/goods/?date_item_add__gte=2023-09-01&date_item_add__lt=2023-10-01&product_quantity=33 HTTP/1.1" 200 15261
+INFO 2023-09-25 00:35:27,299 basehttp 26152 24724 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:35:27,814 basehttp 26152 24724 "GET /admin/hw2_app/goods/?date_item_add__gte=2023-01-01&date_item_add__lt=2024-01-01&product_quantity=33 HTTP/1.1" 200 15261
+INFO 2023-09-25 00:35:27,829 basehttp 26152 24724 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:35:28,526 basehttp 26152 24724 "GET /admin/hw2_app/goods/?product_quantity=33 HTTP/1.1" 200 15987
+INFO 2023-09-25 00:35:28,543 basehttp 26152 24724 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:35:30,212 basehttp 26152 24724 "GET /admin/hw2_app/goods/?product_price=272.68&product_quantity=33 HTTP/1.1" 200 13688
+INFO 2023-09-25 00:35:30,228 basehttp 26152 24724 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:35:31,270 basehttp 26152 24724 "GET /admin/hw2_app/goods/?product_price=34.21&product_quantity=33 HTTP/1.1" 200 13669
+INFO 2023-09-25 00:35:31,287 basehttp 26152 24724 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:36:05,401 basehttp 26152 24724 "GET /admin/hw2_app/goods/? HTTP/1.1" 200 23273
+INFO 2023-09-25 00:36:05,418 basehttp 26152 24724 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:36:15,920 basehttp 26152 24724 "GET /admin/hw2_app/goods/ HTTP/1.1" 200 23273
+INFO 2023-09-25 00:36:15,936 basehttp 26152 24724 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:36:19,080 basehttp 26152 24724 "GET /admin/hw2_app/goods/?product_quantity=33 HTTP/1.1" 200 15987
+INFO 2023-09-25 00:36:19,096 basehttp 26152 24724 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:36:20,074 basehttp 26152 24724 "GET /admin/hw2_app/goods/?product_price=130.75&product_quantity=33 HTTP/1.1" 200 13688
+INFO 2023-09-25 00:36:20,090 basehttp 26152 24724 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:36:20,970 basehttp 26152 24724 "GET /admin/hw2_app/goods/?date_item_add__gte=2023-09-01&date_item_add__lt=2023-10-01&product_price=130.75&product_quantity=33 HTTP/1.1" 200 15774
+INFO 2023-09-25 00:36:20,989 basehttp 26152 24724 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:36:21,514 basehttp 26152 24724 "GET /admin/hw2_app/goods/?date_item_add__gte=2023-09-18&date_item_add__lt=2023-09-26&product_price=130.75&product_quantity=33 HTTP/1.1" 200 15774
+INFO 2023-09-25 00:36:21,530 basehttp 26152 24724 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:36:22,681 basehttp 26152 24724 "GET /admin/hw2_app/goods/ HTTP/1.1" 200 23273
+INFO 2023-09-25 00:36:22,698 basehttp 26152 24724 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:38:07,856 autoreload 26152 26044 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:38:08,110 autoreload 22824 22180 Watching for file changes with StatReloader
+INFO 2023-09-25 00:39:33,416 autoreload 22824 22180 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:39:33,662 autoreload 3144 16096 Watching for file changes with StatReloader
+INFO 2023-09-25 00:39:47,018 autoreload 3144 16096 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:39:47,250 autoreload 25020 26096 Watching for file changes with StatReloader
+INFO 2023-09-25 00:41:55,084 autoreload 25020 26096 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:41:55,326 autoreload 21324 18528 Watching for file changes with StatReloader
+INFO 2023-09-25 00:42:39,068 autoreload 21324 18528 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:42:39,302 autoreload 7448 12348 Watching for file changes with StatReloader
+INFO 2023-09-25 00:43:21,089 autoreload 7448 12348 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:43:21,330 autoreload 21976 26584 Watching for file changes with StatReloader
+INFO 2023-09-25 00:43:22,372 basehttp 21976 26444 "GET /admin/hw2_app/client/ HTTP/1.1" 200 12902
+INFO 2023-09-25 00:43:22,391 basehttp 21976 26444 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:43:23,941 basehttp 21976 26444 "GET /admin/hw2_app/client/ HTTP/1.1" 200 12902
+INFO 2023-09-25 00:43:23,956 basehttp 21976 26444 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:43:25,505 basehttp 21976 26444 "GET /admin/hw2_app/goods/ HTTP/1.1" 200 23273
+INFO 2023-09-25 00:43:25,522 basehttp 21976 26444 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:43:26,198 basehttp 21976 26444 "GET /admin/hw2_app/client/ HTTP/1.1" 200 12902
+INFO 2023-09-25 00:43:26,212 basehttp 21976 26444 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:44:04,080 autoreload 21976 26584 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:44:04,342 autoreload 25288 26012 Watching for file changes with StatReloader
+INFO 2023-09-25 00:44:12,392 basehttp 25288 24428 "GET /admin/hw2_app/client/ HTTP/1.1" 200 18190
+INFO 2023-09-25 00:44:12,408 basehttp 25288 24428 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:44:13,519 basehttp 25288 24428 "GET /admin/hw2_app/client/ HTTP/1.1" 200 18190
+INFO 2023-09-25 00:44:13,535 basehttp 25288 24428 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:44:16,589 basehttp 25288 24428 "GET /admin/hw2_app/goods/ HTTP/1.1" 200 23273
+INFO 2023-09-25 00:44:16,607 basehttp 25288 24428 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:44:17,382 basehttp 25288 24428 "GET /admin/hw2_app/client/ HTTP/1.1" 200 18190
+INFO 2023-09-25 00:44:17,399 basehttp 25288 24428 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:44:23,912 basehttp 25288 24428 "GET /admin/hw2_app/client/?q=%D0%98%D0%B2%D0%B0%D0%BD HTTP/1.1" 200 15579
+INFO 2023-09-25 00:44:23,931 basehttp 25288 24428 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:44:26,212 basehttp 25288 24428 "GET /admin/hw2_app/client/?name=John9&q=%D0%98%D0%B2%D0%B0%D0%BD HTTP/1.1" 200 13495
+INFO 2023-09-25 00:44:26,231 basehttp 25288 24428 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:44:27,810 basehttp 25288 24428 "GET /admin/hw2_app/client/?name=John2&q=%D0%98%D0%B2%D0%B0%D0%BD HTTP/1.1" 200 13495
+INFO 2023-09-25 00:44:27,828 basehttp 25288 24428 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:44:28,657 basehttp 25288 24428 "GET /admin/hw2_app/client/?name=John5&q=%D0%98%D0%B2%D0%B0%D0%BD HTTP/1.1" 200 13495
+INFO 2023-09-25 00:44:28,671 basehttp 25288 24428 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:44:31,650 basehttp 25288 24428 "GET /admin/hw2_app/client/?name=%D0%98%D0%B2%D0%B0%D0%BD&q=%D0%98%D0%B2%D0%B0%D0%BD HTTP/1.1" 200 16774
+INFO 2023-09-25 00:44:31,668 basehttp 25288 24428 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:44:34,271 basehttp 25288 24428 "GET /admin/hw2_app/client/?name=John2&q=%D0%98%D0%B2%D0%B0%D0%BD HTTP/1.1" 200 13495
+INFO 2023-09-25 00:44:34,290 basehttp 25288 24428 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:44:35,005 basehttp 25288 24428 "GET /admin/hw2_app/client/?name=John10&q=%D0%98%D0%B2%D0%B0%D0%BD HTTP/1.1" 200 13514
+INFO 2023-09-25 00:44:35,021 basehttp 25288 24428 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:44:35,489 basehttp 25288 24428 "GET /admin/hw2_app/client/?name=John1&q=%D0%98%D0%B2%D0%B0%D0%BD HTTP/1.1" 200 13495
+INFO 2023-09-25 00:44:35,507 basehttp 25288 24428 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:44:36,479 basehttp 25288 24428 "GET /admin/hw2_app/client/?name=%D0%98%D0%B2%D0%B0%D0%BD&q=%D0%98%D0%B2%D0%B0%D0%BD HTTP/1.1" 200 16774
+INFO 2023-09-25 00:44:36,496 basehttp 25288 24428 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:44:38,708 basehttp 25288 24428 "GET /admin/hw2_app/client/?name=%D0%98%D0%B2%D0%B0%D0%BD&phone_number=23673072&q=%D0%98%D0%B2%D0%B0%D0%BD HTTP/1.1" 200 14388
+INFO 2023-09-25 00:44:38,727 basehttp 25288 24428 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:44:39,251 basehttp 25288 24428 "GET /admin/hw2_app/client/?name=%D0%98%D0%B2%D0%B0%D0%BD&phone_number=35509608&q=%D0%98%D0%B2%D0%B0%D0%BD HTTP/1.1" 200 14388
+INFO 2023-09-25 00:44:39,268 basehttp 25288 24428 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:44:40,778 basehttp 25288 24428 "GET /admin/hw2_app/client/ HTTP/1.1" 200 18190
+INFO 2023-09-25 00:44:40,796 basehttp 25288 24428 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:44:41,355 basehttp 25288 24428 "GET /admin/hw2_app/goods/ HTTP/1.1" 200 23273
+INFO 2023-09-25 00:44:41,371 basehttp 25288 24428 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:47:04,036 autoreload 25288 26012 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:47:04,275 autoreload 13080 21148 Watching for file changes with StatReloader
+INFO 2023-09-25 00:49:01,893 autoreload 13080 21148 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:49:02,130 autoreload 25564 25900 Watching for file changes with StatReloader
+INFO 2023-09-25 00:49:16,465 autoreload 25564 25900 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:49:16,745 autoreload 20988 23052 Watching for file changes with StatReloader
+INFO 2023-09-25 00:50:12,577 autoreload 20988 23052 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:50:12,813 autoreload 17684 26500 Watching for file changes with StatReloader
+INFO 2023-09-25 00:51:31,924 autoreload 17684 26500 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:51:32,165 autoreload 20748 19500 Watching for file changes with StatReloader
+INFO 2023-09-25 00:52:21,932 autoreload 20748 19500 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:52:22,167 autoreload 19964 25760 Watching for file changes with StatReloader
+INFO 2023-09-25 00:52:38,416 autoreload 25928 14964 Watching for file changes with StatReloader
+INFO 2023-09-25 00:53:01,863 autoreload 25928 14964 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:53:02,098 autoreload 18080 25616 Watching for file changes with StatReloader
+INFO 2023-09-25 00:53:27,878 basehttp 18080 23628 "GET / HTTP/1.1" 200 229
+INFO 2023-09-25 00:53:28,743 autoreload 18080 25616 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:53:29,001 autoreload 22884 24404 Watching for file changes with StatReloader
+INFO 2023-09-25 00:53:44,378 autoreload 22884 24404 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:53:44,617 autoreload 22748 3412 Watching for file changes with StatReloader
+INFO 2023-09-25 00:53:53,897 autoreload 22748 3412 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:53:54,136 autoreload 25484 13508 Watching for file changes with StatReloader
+INFO 2023-09-25 00:54:11,532 autoreload 25484 13508 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:54:11,782 autoreload 20080 21468 Watching for file changes with StatReloader
+INFO 2023-09-25 00:54:28,148 autoreload 20080 21468 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:54:28,386 autoreload 14048 23816 Watching for file changes with StatReloader
+INFO 2023-09-25 00:56:01,647 autoreload 14048 23816 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:56:01,886 autoreload 24920 25388 Watching for file changes with StatReloader
+INFO 2023-09-25 00:56:33,439 autoreload 24920 25388 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:56:33,668 autoreload 24272 26188 Watching for file changes with StatReloader
+INFO 2023-09-25 00:57:02,181 autoreload 24272 26188 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:57:02,423 autoreload 23012 24656 Watching for file changes with StatReloader
+INFO 2023-09-25 00:57:27,908 autoreload 23012 24656 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:57:28,144 autoreload 20008 17608 Watching for file changes with StatReloader
+INFO 2023-09-25 00:57:31,014 basehttp 20008 2580 "GET / HTTP/1.1" 200 229
+INFO 2023-09-25 00:57:33,262 basehttp 20008 2580 "GET /admin/ HTTP/1.1" 200 11046
+INFO 2023-09-25 00:57:34,961 basehttp 20008 2580 "GET /admin/hw2_app/client/ HTTP/1.1" 200 18190
+INFO 2023-09-25 00:57:34,978 basehttp 20008 2580 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:57:37,289 basehttp 20008 2580 "GET /admin/hw2_app/order/ HTTP/1.1" 200 20195
+INFO 2023-09-25 00:57:37,306 basehttp 20008 2580 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:57:40,293 basehttp 20008 2580 "GET /admin/hw2_app/order/?client__id__exact=1 HTTP/1.1" 200 16959
+INFO 2023-09-25 00:57:40,309 basehttp 20008 2580 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:57:46,647 basehttp 20008 2580 "GET /admin/hw2_app/order/?client__id__exact=10 HTTP/1.1" 200 16063
+INFO 2023-09-25 00:57:46,664 basehttp 20008 2580 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:57:47,814 basehttp 20008 2580 "GET /admin/hw2_app/order/?client__id__exact=2 HTTP/1.1" 200 16028
+INFO 2023-09-25 00:57:47,829 basehttp 20008 2580 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:57:48,769 basehttp 20008 2580 "GET /admin/hw2_app/order/?client__id__exact=3 HTTP/1.1" 200 16027
+INFO 2023-09-25 00:57:48,783 basehttp 20008 2580 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:57:52,376 basehttp 20008 2580 "GET /admin/hw2_app/order/ HTTP/1.1" 200 20195
+INFO 2023-09-25 00:57:52,393 basehttp 20008 2580 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:58:10,033 basehttp 20008 2580 "GET /admin/hw2_app/order/ HTTP/1.1" 200 20195
+INFO 2023-09-25 00:58:10,050 basehttp 20008 2580 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:58:11,364 basehttp 20008 2580 "GET /admin/hw2_app/order/ HTTP/1.1" 200 20195
+INFO 2023-09-25 00:58:11,381 basehttp 20008 2580 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:58:12,443 basehttp 20008 2580 "GET /admin/hw2_app/goods/ HTTP/1.1" 200 23273
+INFO 2023-09-25 00:58:12,460 basehttp 20008 2580 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:58:13,640 basehttp 20008 2580 "GET /admin/hw2_app/client/ HTTP/1.1" 200 18190
+INFO 2023-09-25 00:58:13,656 basehttp 20008 2580 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:58:14,595 basehttp 20008 2580 "GET /admin/hw2_app/order/ HTTP/1.1" 200 20195
+INFO 2023-09-25 00:58:14,610 basehttp 20008 2580 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:58:18,581 basehttp 20008 2580 "GET /admin/hw2_app/order/9/change/ HTTP/1.1" 200 10813
+INFO 2023-09-25 00:58:18,596 basehttp 20008 2580 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 00:59:29,064 autoreload 20008 17608 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 00:59:29,308 autoreload 4196 26392 Watching for file changes with StatReloader
+INFO 2023-09-25 01:00:59,539 autoreload 4196 26392 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 01:00:59,774 autoreload 6776 25556 Watching for file changes with StatReloader
+INFO 2023-09-25 01:01:14,111 basehttp 6776 21804 "GET /admin/hw2_app/order/9/change/ HTTP/1.1" 200 10813
+INFO 2023-09-25 01:01:14,162 basehttp 6776 21804 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 01:07:17,972 autoreload 6776 25556 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 01:07:18,211 autoreload 8008 5352 Watching for file changes with StatReloader
+INFO 2023-09-25 01:07:27,301 basehttp 8008 24392 "GET /admin/hw2_app/order/9/change/ HTTP/1.1" 200 11431
+INFO 2023-09-25 01:07:27,321 basehttp 8008 24392 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 01:07:31,413 basehttp 8008 24392 "GET /admin/hw2_app/order/ HTTP/1.1" 200 20195
+INFO 2023-09-25 01:07:31,430 basehttp 8008 24392 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 01:07:32,755 basehttp 8008 24392 "GET /admin/hw2_app/order/9/change/ HTTP/1.1" 200 11431
+INFO 2023-09-25 01:07:32,772 basehttp 8008 24392 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 01:07:35,200 basehttp 8008 24392 "GET /admin/hw2_app/order/ HTTP/1.1" 200 20195
+INFO 2023-09-25 01:07:35,218 basehttp 8008 24392 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 01:07:36,218 basehttp 8008 24392 "GET /admin/hw2_app/order/3/change/ HTTP/1.1" 200 11429
+INFO 2023-09-25 01:07:36,234 basehttp 8008 24392 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 01:07:37,598 basehttp 8008 24392 "GET /admin/hw2_app/order/ HTTP/1.1" 200 20195
+INFO 2023-09-25 01:07:37,614 basehttp 8008 24392 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 01:07:38,457 basehttp 8008 24392 "GET /admin/hw2_app/order/6/change/ HTTP/1.1" 200 11426
+INFO 2023-09-25 01:07:38,474 basehttp 8008 24392 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 01:08:35,458 autoreload 8008 5352 A:\PythonPyCharm\PyCharmProjects\gb_django\GB_Django\hw2_app\admin.py changed, reloading.
+INFO 2023-09-25 01:08:35,690 autoreload 25312 7240 Watching for file changes with StatReloader
