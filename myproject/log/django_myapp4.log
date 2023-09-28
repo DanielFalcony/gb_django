@@ -1,0 +1,5 @@
+INFO 2023-09-18 00:09:53,863 views 11700 14040 Получили данные name='имя', email='mail@mail.ru', age=20.
+INFO 2023-09-18 23:32:00,328 views 10084 16760 Получили {'name': 'Имя', 'email': 'mail@mail.ru', 'age': 23, 'height': 23.4, 'is_active': True, 'birthdate': datetime.date(2012, 6, 23), 'gender': 'M'}.
+INFO 2023-09-18 23:51:11,201 views 3860 18160 Получили {'name': 'Даниил', 'email': 'mail@mail.ru', 'age': 23, 'height': 25.4, 'is_active': True, 'birthdate': datetime.date(2012, 6, 23), 'gender': 'F', 'message': 'Какой нибудь текст'}.
+INFO 2023-09-19 13:44:03,828 views 12880 23312 Получили name='Даниил', email='mail@corp.mail.ru', age=23.
+INFO 2023-09-19 13:59:50,037 views 18912 23208 Получили image.name='20171609123213.jpg'.

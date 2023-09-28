@@ -1,0 +1,8 @@
+INFO 2023-09-20 00:07:12,997 views 13688 6724 Добавлен товар: product_name='Штора', product_description='Красивая штора', product_price=Decimal('900.25'), product_quantity=2, curtains_74190-6526.jpg.
+INFO 2023-09-20 00:09:02,657 views 4456 9228 Добавлен товар: product_name='Штора2', product_description='Красивая штора2', product_price=Decimal('900.23'), product_quantity=3, 1621528391_2-phonoteka_org-p-fon-bolnitsa-palata-2.jpg.
+INFO 2023-09-20 00:12:10,486 views 388 11184 Добавлен товар: product_name='123', product_description='12312', product_price=Decimal('3213'), product_quantity=4, curtains_74190-6526.jpg.
+INFO 2023-09-20 00:13:02,538 views 388 11184 Добавлен товар: product_name='Шторка2', product_description='шторка2', product_price=Decimal('12341'), product_quantity=3, curtains_74190-6526.jpg.
+INFO 2023-09-20 00:13:19,230 views 388 11184 Добавлен товар: product_name='Шторка2', product_description='шторка2', product_price=Decimal('12341'), product_quantity=3, curtains_74190-6526.jpg.
+INFO 2023-09-20 00:13:24,447 views 388 11184 Добавлен товар: product_name='Шторка2', product_description='шторка2', product_price=Decimal('12341'), product_quantity=3, curtains_74190-6526.jpg.
+INFO 2023-09-20 00:13:31,888 views 388 11184 Добавлен товар: product_name='Шторка2', product_description='шторка2', product_price=Decimal('12341'), product_quantity=3, curtains_74190-6526.jpg.
+INFO 2023-09-20 00:14:17,844 views 2532 13228 Добавлен товар: product_name='Шторка3', product_description='шторка3', product_price=Decimal('12340.96'), product_quantity=2, curtains_74190-6526.jpg.
